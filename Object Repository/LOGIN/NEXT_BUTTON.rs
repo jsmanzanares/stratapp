@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>NEXT_BUTTON</name>
+   <tag></tag>
+   <elementGuidId>0af4e9fe-c208-4a66-941f-9f1faf759769</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[contains(text(),'next')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[contains(text(),'next')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[contains(text(),'next')]</value>
+   </webElementProperties>
+</WebElementEntity>

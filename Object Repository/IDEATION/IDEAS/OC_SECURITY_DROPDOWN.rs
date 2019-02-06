@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>OC_SECURITY_DROPDOWN</name>
+   <tag></tag>
+   <elementGuidId>add27e5b-eed8-4881-bfb9-5d6ffcc89123</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='security-selector']//*[@aria-labelledby='dropdownBasic1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='security-selector']//*[@aria-labelledby='dropdownBasic1']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>LOGOUT_BUTTON</name>
+   <tag></tag>
+   <elementGuidId>c405e8b8-2df5-48ec-9db7-85eea122fd35</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//i[@ngbtooltip='logout']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//i[@ngbtooltip='logout']</value>
+   </webElementProperties>
+</WebElementEntity>

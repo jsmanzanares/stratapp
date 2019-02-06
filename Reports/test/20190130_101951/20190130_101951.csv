@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test,Chrome 71.0.3578.98,,2019-01-30 10:19:57,2019-01-30 10:20:49,52.001s,FAILED
+,,,,,,
+Test Cases/LOGIN/LOGIN_TEMPLATE,Chrome 71.0.3578.98,,2019-01-30 10:19:57,2019-01-30 10:20:48,51.239s,FAILED
+"openBrowser(""https://app.stratapp.ai/"")",Chrome 71.0.3578.98,,2019-01-30 10:19:58,2019-01-30 10:20:04,6.585s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-30 10:20:04,2019-01-30 10:20:05,1.176s,PASSED
+"waitForElementPresent(findTestObject(""LOGIN/EMAIL_ADD_TEXTFIELD""), 60)",Chrome 71.0.3578.98,,2019-01-30 10:20:05,2019-01-30 10:20:05,0.077s,PASSED
+"setText(findTestObject(""LOGIN/EMAIL_ADD_TEXTFIELD""), ""noreply@you-source.com"")",Chrome 71.0.3578.98,,2019-01-30 10:20:05,2019-01-30 10:20:06,0.163s,PASSED
+"click(findTestObject(""LOGIN/NEXT_BUTTON""))",Chrome 71.0.3578.98,,2019-01-30 10:20:06,2019-01-30 10:20:06,0.100s,PASSED
+"isAccountLabel = verifyElementPresent(findTestObject(""LOGIN/CHOOSE_ACCOUNT_LABEL""), 60)",Chrome 71.0.3578.98,,2019-01-30 10:20:06,2019-01-30 10:20:48,42.827s,FAILED

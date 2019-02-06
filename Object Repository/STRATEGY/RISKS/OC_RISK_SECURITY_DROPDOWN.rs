@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>OC_RISK_SECURITY_DROPDOWN</name>
+   <tag></tag>
+   <elementGuidId>667dbd3a-8794-4dce-afcc-9e7965dd3e9a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='security-selector']//*[@aria-labelledby='dropdownBasic1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='security-selector']//*[@aria-labelledby='dropdownBasic1']</value>
+   </webElementProperties>
+</WebElementEntity>

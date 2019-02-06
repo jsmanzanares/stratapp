@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate if user can invite members,Chrome 71.0.3578.98,,2019-02-06 13:45:12,2019-02-06 13:45:15,2.928s,INCOMPLETE
+,,,,,,
+Test Cases/TEMPLATES/LOGIN/LOGOUT_TEMPLATE,Chrome 71.0.3578.98,,2019-02-06 13:45:13,2019-02-06 13:45:15,2.691s,PASSED
+"click(findTestObject(""MENU/PROFILE_BUTTON""))",Chrome 71.0.3578.98,,2019-02-06 13:45:13,2019-02-06 13:45:14,0.972s,PASSED
+"waitForElementVisible(findTestObject(""MENU/LOGOUT_BUTTON""), 60)",Chrome 71.0.3578.98,,2019-02-06 13:45:14,2019-02-06 13:45:14,0.570s,PASSED
+"mouseOver(findTestObject(""MENU/LOGOUT_BUTTON""))",Chrome 71.0.3578.98,,2019-02-06 13:45:14,2019-02-06 13:45:15,0.083s,PASSED
+"click(findTestObject(""MENU/LOGOUT_BUTTON""))",Chrome 71.0.3578.98,,2019-02-06 13:45:15,2019-02-06 13:45:15,0.095s,PASSED
+"waitForElementVisible(findTestObject(""LOGIN/EMAIL_ADD_TEXTFIELD""), 60)",Chrome 71.0.3578.98,,2019-02-06 13:45:15,2019-02-06 13:45:15,0.564s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-02-06 13:45:15,2019-02-06 13:45:15,0.116s,PASSED

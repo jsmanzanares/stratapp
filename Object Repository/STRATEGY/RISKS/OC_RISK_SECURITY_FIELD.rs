@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>OC_RISK_SECURITY_FIELD</name>
+   <tag></tag>
+   <elementGuidId>72278245-9cb3-46cf-b082-239570e0675d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//app-risk-card-content//*[@class='security-selector']//a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//app-risk-card-content//*[@class='security-selector']//a</value>
+   </webElementProperties>
+</WebElementEntity>

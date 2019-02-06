@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>OC_REVIEWS_LABEL</name>
+   <tag></tag>
+   <elementGuidId>c3df513c-a4a1-4252-9e49-c02a27396364</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@class,'eye')]/following-sibling::span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[contains(@class,'eye')]/following-sibling::span</value>
+   </webElementProperties>
+</WebElementEntity>

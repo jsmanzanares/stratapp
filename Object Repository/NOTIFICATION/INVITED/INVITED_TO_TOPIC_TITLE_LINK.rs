@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>INVITED_TO_TOPIC_TITLE_LINK</name>
+   <tag></tag>
+   <elementGuidId>e603e2ee-9f89-41a8-9338-4612c8e1580e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>((//div[contains(@class,'notification-content')])[1]//a/span)[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>((//div[contains(@class,'notification-content')])[1]//a/span)[2]</value>
+   </webElementProperties>
+</WebElementEntity>

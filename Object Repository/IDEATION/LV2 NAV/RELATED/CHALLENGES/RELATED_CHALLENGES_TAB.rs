@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>RELATED_CHALLENGES_TAB</name>
+   <tag></tag>
+   <elementGuidId>bb012133-7d80-4001-ba78-86ea4024c131</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='tab-content']//a[text()='challenges']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='tab-content']//a[text()='challenges']</value>
+   </webElementProperties>
+</WebElementEntity>

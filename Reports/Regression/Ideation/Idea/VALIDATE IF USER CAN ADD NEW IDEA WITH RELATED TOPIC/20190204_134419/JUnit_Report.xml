@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VALIDATE IF USER CAN ADD NEW IDEA WITH RELATED TOPIC" time="22" tests="1" failures="0" errors="0">
+   <testsuite name="VALIDATE IF USER CAN ADD NEW IDEA WITH RELATED TOPIC" tests="1" failures="0" errors="0" time="22" timestamp="2019-02-04 13:44:23" hostname="JohnSeigfredManzanar - YSPC-STRATAPPQA" id="Test Suites/Regression/Ideation/Idea/VALIDATE IF USER CAN ADD NEW IDEA WITH RELATED TOPIC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JohnSeigfredManzanar\\Katalon Studio\\StratApp\\Reports\\Regression\\Ideation\\Idea\\VALIDATE IF USER CAN ADD NEW IDEA WITH RELATED TOPIC\\20190204_134419"/>
+         <property name="logFiles" value="C:\\Users\\JohnSeigfredManzanar\\Katalon Studio\\StratApp\\Reports\\Regression\\Ideation\\Idea\\VALIDATE IF USER CAN ADD NEW IDEA WITH RELATED TOPIC\\20190204_134419\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="JohnSeigfredManzanar - YSPC-STRATAPPQA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="1539c60b2c1872094eaff0521f11c61e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TEMPLATES/LOGIN/LOGIN_TEMPLATE" classname="Test Cases/TEMPLATES/LOGIN/LOGIN_TEMPLATE" status="PASSED">
+         <system-out><![CDATA[2019-02-04 13:44:23 - [TEST_CASE][PASSED] - Test Cases/TEMPLATES/LOGIN/LOGIN_TEMPLATE: Test Cases/TEMPLATES/LOGIN/LOGIN_TEMPLATE
+
+2019-02-04 13:44:24 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-04 13:44:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-02-04 13:44:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-02-04 13:44:24 - [TEST_STEP][PASSED] - openBrowser("https://app.stratapp.ai/"): Browser is opened with url: 'https://app.stratapp.ai/'
+
+2019-02-04 13:44:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-04 13:44:24 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-04 13:44:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.stratapp.ai/'
+
+2019-02-04 13:44:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-04 13:44:38 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-04 13:44:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("LOGIN/EMAIL_ADD_TEXTFIELD"), 60): Object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD' is present
+
+2019-02-04 13:44:38 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD' is present
+
+2019-02-04 13:44:38 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN/EMAIL_ADD_TEXTFIELD"), "noreply@you-source.com"): Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD'
+
+2019-02-04 13:44:38 - [MESSAGE][PASSED] - Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD'
+
+2019-02-04 13:44:38 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN/NEXT_BUTTON")): Object: 'Object Repository/LOGIN/NEXT_BUTTON' is clicked on
+
+2019-02-04 13:44:38 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN/NEXT_BUTTON' is clicked on
+
+2019-02-04 13:44:38 - [TEST_STEP][PASSED] - isGoogle = verifyElementPresent(findTestObject("LOGIN/GOOGLE_LABEL"), 60): Object 'Object Repository/LOGIN/GOOGLE_LABEL' is present
+
+2019-02-04 13:44:39 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN/GOOGLE_LABEL' is present
+
+2019-02-04 13:44:39 - [TEST_STEP][PASSED] - if (isGoogle): Object: 'Object Repository/LOGIN/GOOGLE_SIGNIN_BUTTON' is clicked on
+
+2019-02-04 13:44:39 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN/GOOGLE_EMAIL_TEXTFIELD"), "noreply@you-source.com"): Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/GOOGLE_EMAIL_TEXTFIELD'
+
+2019-02-04 13:44:39 - [MESSAGE][PASSED] - Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/GOOGLE_EMAIL_TEXTFIELD'
+
+2019-02-04 13:44:39 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN/GOOGLE_NEXT_BUTTON")): Object: 'Object Repository/LOGIN/GOOGLE_NEXT_BUTTON' is clicked on
+
+2019-02-04 13:44:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN/GOOGLE_NEXT_BUTTON' is clicked on
+
+2019-02-04 13:44:40 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN/GOOGLE_PASSWORD_TEXTFIELD"), "yousource321"): Text 'yousource321' is set on object 'Object Repository/LOGIN/GOOGLE_PASSWORD_TEXTFIELD'
+
+2019-02-04 13:44:40 - [MESSAGE][PASSED] - Text 'yousource321' is set on object 'Object Repository/LOGIN/GOOGLE_PASSWORD_TEXTFIELD'
+
+2019-02-04 13:44:40 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN/GOOGLE_SIGNIN_BUTTON")): Object: 'Object Repository/LOGIN/GOOGLE_SIGNIN_BUTTON' is clicked on
+
+2019-02-04 13:44:44 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN/GOOGLE_SIGNIN_BUTTON' is clicked on
+
+2019-02-04 13:44:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("HOME/HEADLINES_TAB"), 60): Object 'Object Repository/HOME/HEADLINES_TAB' is present
+
+2019-02-04 13:44:44 - [MESSAGE][PASSED] - Object 'Object Repository/HOME/HEADLINES_TAB' is present
+
+2019-02-04 13:44:44 - [TEST_STEP][PASSED] - stratapp.Login.GetUserName(): stratapp.Login.GetUserName is PASSED
+
+2019-02-04 13:44:45 - [MESSAGE][INFO] - User JSON {"firstName":"No","lastName":"Reply","fullName":"No Reply","tenantId":"f385ee6b-2a69-4463-9fc8-01259f2c5c03","userId":"37c0108d-8dbd-46cd-aeeb-ca484d1d8c22","role":["PeopleAdmin","StrategyAdmin","IdeationAdmin","HeadlinesAdmin","HRAdmin","BillingAdmin","Admin","SuperAdmin"]}
+
+2019-02-04 13:44:45 - [MESSAGE][INFO] - Full Name: No Reply
+
+2019-02-04 13:44:45 - [MESSAGE][PASSED] - stratapp.Login.GetUserName is PASSED
+
+2019-02-04 13:44:45 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-04 13:44:45 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-02-04 13:44:45 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-04 13:44:23 - [TEST_SUITE][PASSED] - VALIDATE IF USER CAN ADD NEW IDEA WITH RELATED TOPIC: Test Cases/TEMPLATES/LOGIN/LOGIN_TEMPLATE]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

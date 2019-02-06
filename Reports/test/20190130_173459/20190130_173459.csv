@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test,Chrome 71.0.3578.98,,2019-01-30 17:35:06,2019-01-30 17:35:30,24.179s,FAILED
+,,,,,,
+Test Cases/LOGIN/LOGIN_TEMPLATE,Chrome 71.0.3578.98,,2019-01-30 17:35:06,2019-01-30 17:35:27,21.647s,PASSED
+"openBrowser(""https://app.stratapp.ai/"")",Chrome 71.0.3578.98,,2019-01-30 17:35:06,2019-01-30 17:35:13,6.585s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-30 17:35:13,2019-01-30 17:35:14,1.142s,PASSED
+"waitForElementPresent(findTestObject(""LOGIN/EMAIL_ADD_TEXTFIELD""), 60)",Chrome 71.0.3578.98,,2019-01-30 17:35:14,2019-01-30 17:35:14,0.066s,PASSED
+"setText(findTestObject(""LOGIN/EMAIL_ADD_TEXTFIELD""), ""noreply@you-source.com"")",Chrome 71.0.3578.98,,2019-01-30 17:35:14,2019-01-30 17:35:14,0.173s,PASSED
+"click(findTestObject(""LOGIN/NEXT_BUTTON""))",Chrome 71.0.3578.98,,2019-01-30 17:35:14,2019-01-30 17:35:14,0.088s,PASSED
+"isGoogle = verifyElementPresent(findTestObject(""LOGIN/GOOGLE_LABEL""), 60)",Chrome 71.0.3578.98,,2019-01-30 17:35:14,2019-01-30 17:35:15,0.670s,PASSED
+if (isGoogle),Chrome 71.0.3578.98,,2019-01-30 17:35:15,2019-01-30 17:35:19,4.560s,PASSED
+"waitForElementPresent(findTestObject(""HOME/HEADLINES_TAB""), 60)",Chrome 71.0.3578.98,,2019-01-30 17:35:19,2019-01-30 17:35:27,7.921s,PASSED
+,,,,,,
+Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE,Chrome 71.0.3578.98,,2019-01-30 17:35:27,2019-01-30 17:35:29,1.560s,FAILED
+"waitForElementPresent(findTestObject(""MENU/IDEATION_TAB""), 60)",Chrome 71.0.3578.98,,2019-01-30 17:35:28,2019-01-30 17:35:28,0.151s,PASSED
+"waitForElementClickable(findTestObject(""MENU/IDEATION_TAB""), 60)",Chrome 71.0.3578.98,,2019-01-30 17:35:28,2019-01-30 17:35:28,0.218s,PASSED
+"click(findTestObject(""MENU/IDEATION_TAB""))",Chrome 71.0.3578.98,,2019-01-30 17:35:28,2019-01-30 17:35:28,0.197s,PASSED
+"waitForElementPresent(findTestObject(""IDEATION/TABS/IDEAS_TAB""), 60)",Chrome 71.0.3578.98,,2019-01-30 17:35:28,2019-01-30 17:35:28,0.021s,PASSED
+"waitForElementClickable(findTestObject(""IDEATION/TABS/IDEAS_TAB""), 60)",Chrome 71.0.3578.98,,2019-01-30 17:35:28,2019-01-30 17:35:28,0.036s,PASSED
+"click(findTestObject(""IDEATION/TABS/IDEAS_TAB""))",Chrome 71.0.3578.98,,2019-01-30 17:35:28,2019-01-30 17:35:29,0.598s,FAILED

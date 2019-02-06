@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="22" tests="1" failures="1" errors="0">
+   <testsuite name="test" tests="1" failures="1" errors="0" time="22" timestamp="2019-01-30 16:19:42" hostname="JohnSeigfredManzanar - YSPC-STRATAPPQA" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JohnSeigfredManzanar\\Katalon Studio\\StratApp\\Reports\\test\\20190130_161936"/>
+         <property name="logFiles" value="C:\\Users\\JohnSeigfredManzanar\\Katalon Studio\\StratApp\\Reports\\test\\20190130_161936\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\JohnSeigfredManzanar\\Katalon Studio\\StratApp\\Reports\\test\\20190130_161936\\1548836403448.png"/>
+         <property name="hostName" value="JohnSeigfredManzanar - YSPC-STRATAPPQA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="98d56623e475d0b5a372953334cd2aeb"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LOGIN/LOGIN_TEMPLATE" classname="Test Cases/LOGIN/LOGIN_TEMPLATE" status="PASSED">
+         <system-out><![CDATA[2019-01-30 16:19:42 - [TEST_CASE][PASSED] - Test Cases/LOGIN/LOGIN_TEMPLATE: Test Cases/LOGIN/LOGIN_TEMPLATE
+
+2019-01-30 16:19:43 - [TEST_STEP][PASSED] - openBrowser("https://app.stratapp.ai/"): Browser is opened with url: 'https://app.stratapp.ai/'
+
+2019-01-30 16:19:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-30 16:19:43 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-30 16:19:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.stratapp.ai/'
+
+2019-01-30 16:19:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-30 16:19:57 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-30 16:19:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("LOGIN/EMAIL_ADD_TEXTFIELD"), 60): Object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD' is present
+
+2019-01-30 16:19:57 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD' is present
+
+2019-01-30 16:19:57 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN/EMAIL_ADD_TEXTFIELD"), "noreply@you-source.com"): Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD'
+
+2019-01-30 16:19:57 - [MESSAGE][PASSED] - Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD'
+
+2019-01-30 16:19:57 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN/NEXT_BUTTON")): Object: 'Object Repository/LOGIN/NEXT_BUTTON' is clicked on
+
+2019-01-30 16:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN/NEXT_BUTTON' is clicked on
+
+2019-01-30 16:19:57 - [TEST_STEP][PASSED] - isGoogle = verifyElementPresent(findTestObject("LOGIN/GOOGLE_LABEL"), 60): Object 'Object Repository/LOGIN/GOOGLE_LABEL' is present
+
+2019-01-30 16:19:58 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN/GOOGLE_LABEL' is present
+
+2019-01-30 16:19:58 - [TEST_STEP][PASSED] - if (isGoogle): Object: 'Object Repository/LOGIN/GOOGLE_SIGNIN_BUTTON' is clicked on
+
+2019-01-30 16:19:58 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN/GOOGLE_EMAIL_TEXTFIELD"), "noreply@you-source.com"): Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/GOOGLE_EMAIL_TEXTFIELD'
+
+2019-01-30 16:19:58 - [MESSAGE][PASSED] - Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/GOOGLE_EMAIL_TEXTFIELD'
+
+2019-01-30 16:19:58 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN/GOOGLE_NEXT_BUTTON")): Object: 'Object Repository/LOGIN/GOOGLE_NEXT_BUTTON' is clicked on
+
+2019-01-30 16:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN/GOOGLE_NEXT_BUTTON' is clicked on
+
+2019-01-30 16:19:58 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN/GOOGLE_PASSWORD_TEXTFIELD"), "yousource321"): Text 'yousource321' is set on object 'Object Repository/LOGIN/GOOGLE_PASSWORD_TEXTFIELD'
+
+2019-01-30 16:19:59 - [MESSAGE][PASSED] - Text 'yousource321' is set on object 'Object Repository/LOGIN/GOOGLE_PASSWORD_TEXTFIELD'
+
+2019-01-30 16:19:59 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN/GOOGLE_SIGNIN_BUTTON")): Object: 'Object Repository/LOGIN/GOOGLE_SIGNIN_BUTTON' is clicked on
+
+2019-01-30 16:20:02 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN/GOOGLE_SIGNIN_BUTTON' is clicked on
+
+2019-01-30 16:20:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("HOME/HEADLINES_TAB"), 60): Object 'Object Repository/HOME/HEADLINES_TAB' is present
+
+2019-01-30 16:20:03 - [MESSAGE][PASSED] - Object 'Object Repository/HOME/HEADLINES_TAB' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE" classname="Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE" status="FAILED">
+         <failure type="FAILED" message="Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be clickable (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:108)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:500)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementClickable$5.call(Unknown Source)
+	at IDEA_ADD_TEMPLATE.run(IDEA_ADD_TEMPLATE:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548836381302.run(TempTestSuite1548836381302.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-30 16:20:03 - [TEST_CASE][FAILED] - Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE: Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be clickable (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:108)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:500)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementClickable$5.call(Unknown Source)
+	at IDEA_ADD_TEMPLATE.run(IDEA_ADD_TEMPLATE:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548836381302.run(TempTestSuite1548836381302.groovy:36)
+
+
+2019-01-30 16:20:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("MENU/IDEATION_TAB"), 60): Object 'Object Repository/MENU/IDEATION_TAB' is present
+
+2019-01-30 16:20:03 - [MESSAGE][PASSED] - Object 'Object Repository/MENU/IDEATION_TAB' is present
+
+2019-01-30 16:20:03 - [TEST_STEP][FAILED] - waitForElementClickable(findTestObject(null), 60): waitForElementClickable(findTestObject(null), 60) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be clickable (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:108)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:500)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementClickable$5.call(Unknown Source)
+	at IDEA_ADD_TEMPLATE.run(IDEA_ADD_TEMPLATE:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548836381302.run(TempTestSuite1548836381302.groovy:36)
+
+
+2019-01-30 16:20:03 - [MESSAGE][WARNING] - Test object id is null
+
+2019-01-30 16:20:03 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-01-30 16:20:04 - [MESSAGE][FAILED] - Unable to wait for object to be clickable (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\JohnSeigfredManzanar\\Katalon Studio\\StratApp\\Reports\\test\\20190130_161936\\1548836403448.png]]
+
+2019-01-30 16:20:04 - [MESSAGE][FAILED] - waitForElementClickable(findTestObject(null), 60) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be clickable (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:108)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:500)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementClickable$5.call(Unknown Source)
+	at IDEA_ADD_TEMPLATE.run(IDEA_ADD_TEMPLATE:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548836381302.run(TempTestSuite1548836381302.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-30 16:20:03 - [TEST_CASE][FAILED] - Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE: Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be clickable (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:108)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:500)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementClickable$5.call(Unknown Source)
+	at IDEA_ADD_TEMPLATE.run(IDEA_ADD_TEMPLATE:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548836381302.run(TempTestSuite1548836381302.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-30 16:19:42 - [TEST_SUITE][FAILED] - test: Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be clickable (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:108)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:500)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementClickable$5.call(Unknown Source)
+	at IDEA_ADD_TEMPLATE.run(IDEA_ADD_TEMPLATE:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548836381302.run(TempTestSuite1548836381302.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-30 16:19:42 - [TEST_SUITE][FAILED] - test: Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be clickable (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:108)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:500)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementClickable$5.call(Unknown Source)
+	at IDEA_ADD_TEMPLATE.run(IDEA_ADD_TEMPLATE:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548836381302.run(TempTestSuite1548836381302.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

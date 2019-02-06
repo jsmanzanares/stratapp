@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test,Chrome 71.0.3578.98,,2019-01-30 17:28:19,2019-01-30 17:28:54,34.957s,FAILED
+,,,,,,
+Test Cases/LOGIN/LOGIN_TEMPLATE,Chrome 71.0.3578.98,,2019-01-30 17:28:19,2019-01-30 17:28:52,32.618s,PASSED
+"openBrowser(""https://app.stratapp.ai/"")",Chrome 71.0.3578.98,,2019-01-30 17:28:20,2019-01-30 17:28:44,24.703s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-30 17:28:44,2019-01-30 17:28:46,1.158s,PASSED
+"waitForElementPresent(findTestObject(""LOGIN/EMAIL_ADD_TEXTFIELD""), 60)",Chrome 71.0.3578.98,,2019-01-30 17:28:46,2019-01-30 17:28:46,0.059s,PASSED
+"setText(findTestObject(""LOGIN/EMAIL_ADD_TEXTFIELD""), ""noreply@you-source.com"")",Chrome 71.0.3578.98,,2019-01-30 17:28:46,2019-01-30 17:28:46,0.158s,PASSED
+"click(findTestObject(""LOGIN/NEXT_BUTTON""))",Chrome 71.0.3578.98,,2019-01-30 17:28:46,2019-01-30 17:28:46,0.090s,PASSED
+"isGoogle = verifyElementPresent(findTestObject(""LOGIN/GOOGLE_LABEL""), 60)",Chrome 71.0.3578.98,,2019-01-30 17:28:46,2019-01-30 17:28:47,1.027s,PASSED
+if (isGoogle),Chrome 71.0.3578.98,,2019-01-30 17:28:47,2019-01-30 17:28:52,5.071s,PASSED
+"waitForElementPresent(findTestObject(""HOME/HEADLINES_TAB""), 60)",Chrome 71.0.3578.98,,2019-01-30 17:28:52,2019-01-30 17:28:52,0.031s,PASSED
+,,,,,,
+Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE,Chrome 71.0.3578.98,,2019-01-30 17:28:52,2019-01-30 17:28:54,1.436s,FAILED
+"waitForElementPresent(findTestObject(""MENU/IDEATION_TAB""), 60)",Chrome 71.0.3578.98,,2019-01-30 17:28:52,2019-01-30 17:28:52,0.138s,PASSED
+"waitForElementClickable(findTestObject(""MENU/IDEATION_TAB""), 60)",Chrome 71.0.3578.98,,2019-01-30 17:28:52,2019-01-30 17:28:53,0.109s,PASSED
+"click(findTestObject(""MENU/IDEATION_TAB""))",Chrome 71.0.3578.98,,2019-01-30 17:28:53,2019-01-30 17:28:53,0.386s,PASSED
+"waitForElementPresent(findTestObject(""IDEATION/TABS/IDEAS_TAB""), 60)",Chrome 71.0.3578.98,,2019-01-30 17:28:53,2019-01-30 17:28:53,0.020s,PASSED
+"click(findTestObject(""IDEATION/TABS/IDEAS_TAB""))",Chrome 71.0.3578.98,,2019-01-30 17:28:53,2019-01-30 17:28:54,0.541s,FAILED

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>RELATED_KPIS_TAB</name>
+   <tag></tag>
+   <elementGuidId>1a917eb7-4a51-4a4d-86cb-dd0c53ab8e49</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='tab-content']//a[text()='KPIs']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='tab-content']//a[text()='KPIs']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test,,,2019-01-30 15:49:00,2019-01-30 15:49:02,1.298s,FAILED
+,,,,,,
+Test Cases/LOGIN/LOGIN_TEMPLATE,,,2019-01-30 15:49:01,2019-01-30 15:49:01,0.718s,FAILED
+"openBrowser(""https://app.stratapp.ai/"")",,,2019-01-30 15:49:01,2019-01-30 15:49:01,0.382s,FAILED
+,,,,,,
+Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE,,,2019-01-30 15:49:01,2019-01-30 15:49:02,0.318s,FAILED
+"click(findTestObject(""MENU/IDEATION_TAB""))",,,2019-01-30 15:49:02,2019-01-30 15:49:02,0.047s,FAILED

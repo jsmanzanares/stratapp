@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test,Chrome 71.0.3578.98,,2019-01-30 16:11:33,2019-01-30 16:11:49,15.573s,ERROR
+,,,,,,
+Test Cases/LOGIN/LOGIN_TEMPLATE,Chrome 71.0.3578.98,,2019-01-30 16:11:33,2019-01-30 16:11:47,13.640s,PASSED
+"openBrowser(""https://app.stratapp.ai/"")",Chrome 71.0.3578.98,,2019-01-30 16:11:34,2019-01-30 16:11:40,6.436s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-30 16:11:40,2019-01-30 16:11:41,1.138s,PASSED
+"waitForElementPresent(findTestObject(""LOGIN/EMAIL_ADD_TEXTFIELD""), 60)",Chrome 71.0.3578.98,,2019-01-30 16:11:41,2019-01-30 16:11:41,0.065s,PASSED
+"setText(findTestObject(""LOGIN/EMAIL_ADD_TEXTFIELD""), ""noreply@you-source.com"")",Chrome 71.0.3578.98,,2019-01-30 16:11:41,2019-01-30 16:11:41,0.156s,PASSED
+"click(findTestObject(""LOGIN/NEXT_BUTTON""))",Chrome 71.0.3578.98,,2019-01-30 16:11:41,2019-01-30 16:11:42,0.081s,PASSED
+"isGoogle = verifyElementPresent(findTestObject(""LOGIN/GOOGLE_LABEL""), 60)",Chrome 71.0.3578.98,,2019-01-30 16:11:42,2019-01-30 16:11:42,0.808s,PASSED
+if (isGoogle),Chrome 71.0.3578.98,,2019-01-30 16:11:42,2019-01-30 16:11:47,4.618s,PASSED
+"waitForElementPresent(findTestObject(""HOME/HEADLINES_TAB""), 60)",Chrome 71.0.3578.98,,2019-01-30 16:11:47,2019-01-30 16:11:47,0.023s,PASSED
+,,,,,,
+Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE,Chrome 71.0.3578.98,,2019-01-30 16:11:47,2019-01-30 16:11:48,0.925s,ERROR
+"waitForElementPresent(findTestObject(""MENU/IDEATION_TAB""), 60)",Chrome 71.0.3578.98,,2019-01-30 16:11:47,2019-01-30 16:11:47,0.163s,PASSED
+"click(findTestObject(""MENU/IDEATION_TAB""))",Chrome 71.0.3578.98,,2019-01-30 16:11:47,2019-01-30 16:11:48,0.394s,PASSED
+"stratapp.Dropdown.Select(findTestObject(""IDEATION/IDEAS/OC_STATUS_DROPDOWN""), ""suggested"")",Chrome 71.0.3578.98,,2019-01-30 16:11:48,2019-01-30 16:11:48,0.069s,ERROR

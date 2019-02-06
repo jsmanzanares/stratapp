@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Validate if user can invite members" time="24" tests="2" failures="0" errors="0">
+   <testsuite name="Validate if user can invite members" tests="2" failures="0" errors="0" time="24" timestamp="2019-02-06 13:57:22" hostname="JohnSeigfredManzanar - YSPC-STRATAPPQA" id="Test Suites/Regression/Ideation/Idea/Validate if user can invite members">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JohnSeigfredManzanar\\Katalon Studio\\StratApp\\Reports\\Regression\\Ideation\\Idea\\Validate if user can invite members\\20190206_135716"/>
+         <property name="logFiles" value="C:\\Users\\JohnSeigfredManzanar\\Katalon Studio\\StratApp\\Reports\\Regression\\Ideation\\Idea\\Validate if user can invite members\\20190206_135716\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="JohnSeigfredManzanar - YSPC-STRATAPPQA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="cbcaf2c0e0cf52d18c0ca720676c959c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TEMPLATES/LOGIN/LOGIN_TEMPLATE" classname="Test Cases/TEMPLATES/LOGIN/LOGIN_TEMPLATE" status="PASSED">
+         <system-out><![CDATA[2019-02-06 13:57:23 - [TEST_CASE][PASSED] - Test Cases/TEMPLATES/LOGIN/LOGIN_TEMPLATE: Test Cases/TEMPLATES/LOGIN/LOGIN_TEMPLATE
+
+2019-02-06 13:57:23 - [TEST_STEP][PASSED] - openBrowser("https://app.stratapp.ai/"): Browser is opened with url: 'https://app.stratapp.ai/'
+
+2019-02-06 13:57:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-06 13:57:23 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-06 13:57:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.stratapp.ai/'
+
+2019-02-06 13:57:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-06 13:57:38 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-06 13:57:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("LOGIN/EMAIL_ADD_TEXTFIELD"), 60): Object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD' is present
+
+2019-02-06 13:57:38 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD' is present
+
+2019-02-06 13:57:38 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN/EMAIL_ADD_TEXTFIELD"), EMAIL): Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD'
+
+2019-02-06 13:57:38 - [MESSAGE][PASSED] - Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD'
+
+2019-02-06 13:57:38 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN/NEXT_BUTTON")): Object: 'Object Repository/LOGIN/NEXT_BUTTON' is clicked on
+
+2019-02-06 13:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN/NEXT_BUTTON' is clicked on
+
+2019-02-06 13:57:38 - [TEST_STEP][PASSED] - isGoogle = verifyElementPresent(findTestObject("LOGIN/GOOGLE_LABEL"), 60): Object 'Object Repository/LOGIN/GOOGLE_LABEL' is present
+
+2019-02-06 13:57:39 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN/GOOGLE_LABEL' is present
+
+2019-02-06 13:57:39 - [TEST_STEP][PASSED] - if (isGoogle): Object: 'Object Repository/LOGIN/GOOGLE_SIGNIN_BUTTON' is clicked on
+
+2019-02-06 13:57:39 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN/GOOGLE_EMAIL_TEXTFIELD"), EMAIL): Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/GOOGLE_EMAIL_TEXTFIELD'
+
+2019-02-06 13:57:39 - [MESSAGE][PASSED] - Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/GOOGLE_EMAIL_TEXTFIELD'
+
+2019-02-06 13:57:39 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN/GOOGLE_NEXT_BUTTON")): Object: 'Object Repository/LOGIN/GOOGLE_NEXT_BUTTON' is clicked on
+
+2019-02-06 13:57:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN/GOOGLE_NEXT_BUTTON' is clicked on
+
+2019-02-06 13:57:39 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("LOGIN/GOOGLE_PASSWORD_TEXTFIELD"), PASSWORD): Text '************' is set on object 'Object Repository/LOGIN/GOOGLE_PASSWORD_TEXTFIELD'
+
+2019-02-06 13:57:40 - [MESSAGE][PASSED] - Text '************' is set on object 'Object Repository/LOGIN/GOOGLE_PASSWORD_TEXTFIELD'
+
+2019-02-06 13:57:40 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN/GOOGLE_SIGNIN_BUTTON")): Object: 'Object Repository/LOGIN/GOOGLE_SIGNIN_BUTTON' is clicked on
+
+2019-02-06 13:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN/GOOGLE_SIGNIN_BUTTON' is clicked on
+
+2019-02-06 13:57:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("HOME/HEADLINES_TAB"), 60): Object 'Object Repository/HOME/HEADLINES_TAB' is present
+
+2019-02-06 13:57:44 - [MESSAGE][PASSED] - Object 'Object Repository/HOME/HEADLINES_TAB' is present
+
+2019-02-06 13:57:44 - [TEST_STEP][PASSED] - stratapp.Login.GetUserName(): stratapp.Login.GetUserName is PASSED
+
+2019-02-06 13:57:44 - [MESSAGE][INFO] - User JSON {"firstName":"No","lastName":"Reply","fullName":"No Reply","tenantId":"f385ee6b-2a69-4463-9fc8-01259f2c5c03","userId":"37c0108d-8dbd-46cd-aeeb-ca484d1d8c22","role":["PeopleAdmin","StrategyAdmin","IdeationAdmin","HeadlinesAdmin","HRAdmin","BillingAdmin","Admin","SuperAdmin"]}
+
+2019-02-06 13:57:44 - [MESSAGE][INFO] - Full Name: No Reply
+
+2019-02-06 13:57:44 - [MESSAGE][PASSED] - stratapp.Login.GetUserName is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TEMPLATES/LOGIN/LOGOUT_TEMPLATE" classname="Test Cases/TEMPLATES/LOGIN/LOGOUT_TEMPLATE" status="PASSED">
+         <system-out><![CDATA[2019-02-06 13:57:44 - [TEST_CASE][PASSED] - Test Cases/TEMPLATES/LOGIN/LOGOUT_TEMPLATE: Test Cases/TEMPLATES/LOGIN/LOGOUT_TEMPLATE
+
+2019-02-06 13:57:44 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("MENU/PROFILE_BUTTON"), 0): Object 'Object Repository/MENU/PROFILE_BUTTON' is clickable
+
+2019-02-06 13:57:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-06 13:57:45 - [MESSAGE][PASSED] - Object 'Object Repository/MENU/PROFILE_BUTTON' is clickable
+
+2019-02-06 13:57:45 - [TEST_STEP][PASSED] - mouseOver(findTestObject("MENU/PROFILE_BUTTON")): Object: 'Object Repository/MENU/PROFILE_BUTTON' is hovered
+
+2019-02-06 13:57:45 - [MESSAGE][PASSED] - Object: 'Object Repository/MENU/PROFILE_BUTTON' is hovered
+
+2019-02-06 13:57:45 - [TEST_STEP][PASSED] - click(findTestObject("MENU/PROFILE_BUTTON")): Object: 'Object Repository/MENU/PROFILE_BUTTON' is clicked on
+
+2019-02-06 13:57:45 - [MESSAGE][PASSED] - Object: 'Object Repository/MENU/PROFILE_BUTTON' is clicked on
+
+2019-02-06 13:57:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("MENU/LOGOUT_BUTTON"), 60): Object 'Object Repository/MENU/LOGOUT_BUTTON' is visible
+
+2019-02-06 13:57:45 - [MESSAGE][PASSED] - Object 'Object Repository/MENU/LOGOUT_BUTTON' is visible
+
+2019-02-06 13:57:45 - [TEST_STEP][PASSED] - mouseOver(findTestObject("MENU/LOGOUT_BUTTON")): Object: 'Object Repository/MENU/LOGOUT_BUTTON' is hovered
+
+2019-02-06 13:57:45 - [MESSAGE][PASSED] - Object: 'Object Repository/MENU/LOGOUT_BUTTON' is hovered
+
+2019-02-06 13:57:45 - [TEST_STEP][PASSED] - click(findTestObject("MENU/LOGOUT_BUTTON")): Object: 'Object Repository/MENU/LOGOUT_BUTTON' is clicked on
+
+2019-02-06 13:57:46 - [MESSAGE][PASSED] - Object: 'Object Repository/MENU/LOGOUT_BUTTON' is clicked on
+
+2019-02-06 13:57:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("LOGIN/EMAIL_ADD_TEXTFIELD"), 60): Object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD' is visible
+
+2019-02-06 13:57:46 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD' is visible
+
+2019-02-06 13:57:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-06 13:57:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-06 13:57:22 - [TEST_SUITE][PASSED] - Validate if user can invite members: Test Cases/TEMPLATES/LOGIN/LOGOUT_TEMPLATE]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Validate if user can invite members</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>b879aa49-962b-48dd-aaec-1fb44a3af68b</testSuiteGuid>
+   <testCaseLink>
+      <guid>0c831769-ca24-4772-9a14-562507dbc3ea</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TEMPLATES/LOGIN/LOGIN_TEMPLATE</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>15deb33d-a1d4-4b82-b553-0fb4b6410167</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/USERS/USERS</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cc28f7bc-7857-4109-ad7f-67ca436317af</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>15deb33d-a1d4-4b82-b553-0fb4b6410167</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>EMAIL</value>
+         <variableId>36064dd4-1f6d-4cb4-8ffe-50539143803e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>15deb33d-a1d4-4b82-b553-0fb4b6410167</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PASSWORD</value>
+         <variableId>779c3ad8-0ce8-4da9-9e11-471d925b379f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>14712e67-f6de-4822-a75b-82046b1eb39a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_MEMBER_TEMPLATE</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a6123bd6-2623-453a-8e5e-1faeed94429a</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/MEMBERS/MEMBERS</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>a6123bd6-2623-453a-8e5e-1faeed94429a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TOPIC_TITLE</value>
+         <variableId>b11f4a47-2baf-4673-ba16-1306c5d597b0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a6123bd6-2623-453a-8e5e-1faeed94429a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>MEMBERS_NAME</value>
+         <variableId>741c8532-dffe-4a03-aba2-ffe5cd19b05b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a6123bd6-2623-453a-8e5e-1faeed94429a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ROLES</value>
+         <variableId>d88154bd-e174-4c18-a00c-402bbeab67df</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ec5b03df-f16e-458f-a2d3-9cd46471f0de</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TEMPLATES/LOGIN/LOGOUT_TEMPLATE</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1376d7c3-e6de-456b-bd95-4da826bb072a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TEMPLATES/LOGIN/LOGIN_TEMPLATE</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9b391359-80ee-400c-81f9-3b2d491185a3</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>2</value>
+         </iterationEntity>
+         <testDataId>Data Files/USERS/USERS</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cc28f7bc-7857-4109-ad7f-67ca436317af</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9b391359-80ee-400c-81f9-3b2d491185a3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>EMAIL</value>
+         <variableId>36064dd4-1f6d-4cb4-8ffe-50539143803e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9b391359-80ee-400c-81f9-3b2d491185a3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PASSWORD</value>
+         <variableId>779c3ad8-0ce8-4da9-9e11-471d925b379f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>16061455-aa3b-426b-a79d-17bb48b34150</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TEMPLATES/NOTIFICATION/VALIDATE_IF_USER_RECEIVED_NOTIFICATION_WHEN_INVITED</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1a3be2fa-5c5b-4bb0-a99f-6933a82433ed</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/MEMBERS/MEMBERS</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>1a3be2fa-5c5b-4bb0-a99f-6933a82433ed</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TOPIC_TITLE</value>
+         <variableId>5ede2aed-7294-45fe-9275-e1298aa1a1d8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a71e2302-6030-4ded-a427-22fbab6c7a83</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TEMPLATES/LOGIN/LOGOUT_TEMPLATE</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

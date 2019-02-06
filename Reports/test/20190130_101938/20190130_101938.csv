@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test,,,2019-01-30 10:19:44,2019-01-30 10:19:45,1.195s,FAILED
+,,,,,,
+Test Cases/LOGIN/LOGIN_TEMPLATE,,,2019-01-30 10:19:45,2019-01-30 10:19:45,0.938s,FAILED
+"openBrowser(""https://app.stratapp.ai/"")",,,2019-01-30 10:19:45,2019-01-30 10:19:45,0.433s,FAILED

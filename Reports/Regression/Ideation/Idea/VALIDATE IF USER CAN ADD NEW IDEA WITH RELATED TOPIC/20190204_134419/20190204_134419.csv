@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VALIDATE IF USER CAN ADD NEW IDEA WITH RELATED TOPIC,Chrome 71.0.3578.98,,2019-02-04 13:44:23,2019-02-04 13:44:45,22.243s,PASSED
+,,,,,,
+Test Cases/TEMPLATES/LOGIN/LOGIN_TEMPLATE,Chrome 71.0.3578.98,,2019-02-04 13:44:23,2019-02-04 13:44:45,21.246s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-04 13:44:24,2019-02-04 13:44:24,0.008s,PASSED
+"openBrowser(""https://app.stratapp.ai/"")",Chrome 71.0.3578.98,,2019-02-04 13:44:24,2019-02-04 13:44:37,13.073s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-02-04 13:44:37,2019-02-04 13:44:38,1.142s,PASSED
+"waitForElementPresent(findTestObject(""LOGIN/EMAIL_ADD_TEXTFIELD""), 60)",Chrome 71.0.3578.98,,2019-02-04 13:44:38,2019-02-04 13:44:38,0.068s,PASSED
+"setText(findTestObject(""LOGIN/EMAIL_ADD_TEXTFIELD""), ""noreply@you-source.com"")",Chrome 71.0.3578.98,,2019-02-04 13:44:38,2019-02-04 13:44:38,0.166s,PASSED
+"click(findTestObject(""LOGIN/NEXT_BUTTON""))",Chrome 71.0.3578.98,,2019-02-04 13:44:38,2019-02-04 13:44:38,0.089s,PASSED
+"isGoogle = verifyElementPresent(findTestObject(""LOGIN/GOOGLE_LABEL""), 60)",Chrome 71.0.3578.98,,2019-02-04 13:44:38,2019-02-04 13:44:39,0.911s,PASSED
+if (isGoogle),Chrome 71.0.3578.98,,2019-02-04 13:44:39,2019-02-04 13:44:44,4.926s,PASSED
+"waitForElementPresent(findTestObject(""HOME/HEADLINES_TAB""), 60)",Chrome 71.0.3578.98,,2019-02-04 13:44:44,2019-02-04 13:44:44,0.040s,PASSED
+stratapp.Login.GetUserName(),Chrome 71.0.3578.98,,2019-02-04 13:44:44,2019-02-04 13:44:45,0.473s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-04 13:44:45,2019-02-04 13:44:45,0.004s,PASSED

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>LV_RATE_LABEL</name>
+   <tag></tag>
+   <elementGuidId>d44be44f-2f1b-47fa-a593-f0cd8f8e0c3c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[contains(@class,'grid')]//*[contains(@class,'star')]/following-sibling::span)[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[contains(@class,'grid')]//*[contains(@class,'star')]/following-sibling::span)[1]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IDEA_ADD_MEMBER_TEMPLATE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cacd40b9-81f9-4394-85e4-ca5d615c94e2</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b11f4a47-2baf-4673-ba16-1306c5d597b0</id>
+      <masked>false</masked>
+      <name>IDEA_TITLE</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>741c8532-dffe-4a03-aba2-ffe5cd19b05b</id>
+      <masked>false</masked>
+      <name>MEMBER_NAME</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d88154bd-e174-4c18-a00c-402bbeab67df</id>
+      <masked>false</masked>
+      <name>MEMBER_ROLES</name>
+   </variable>
+</TestCaseEntity>

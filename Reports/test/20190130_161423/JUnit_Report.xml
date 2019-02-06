@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="19" tests="2" failures="0" errors="0">
+   <testsuite name="test" tests="2" failures="0" errors="0" time="19" timestamp="2019-01-30 16:14:29" hostname="JohnSeigfredManzanar - YSPC-STRATAPPQA" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JohnSeigfredManzanar\\Katalon Studio\\StratApp\\Reports\\test\\20190130_161423"/>
+         <property name="logFiles" value="C:\\Users\\JohnSeigfredManzanar\\Katalon Studio\\StratApp\\Reports\\test\\20190130_161423\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="JohnSeigfredManzanar - YSPC-STRATAPPQA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="b6fd185109506907bdda85210ee8915e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LOGIN/LOGIN_TEMPLATE" classname="Test Cases/LOGIN/LOGIN_TEMPLATE" status="PASSED">
+         <system-out><![CDATA[2019-01-30 16:14:29 - [TEST_CASE][PASSED] - Test Cases/LOGIN/LOGIN_TEMPLATE: Test Cases/LOGIN/LOGIN_TEMPLATE
+
+2019-01-30 16:14:30 - [TEST_STEP][PASSED] - openBrowser("https://app.stratapp.ai/"): Browser is opened with url: 'https://app.stratapp.ai/'
+
+2019-01-30 16:14:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-30 16:14:30 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-30 16:14:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.stratapp.ai/'
+
+2019-01-30 16:14:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-30 16:14:37 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-30 16:14:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("LOGIN/EMAIL_ADD_TEXTFIELD"), 60): Object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD' is present
+
+2019-01-30 16:14:37 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD' is present
+
+2019-01-30 16:14:37 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN/EMAIL_ADD_TEXTFIELD"), "noreply@you-source.com"): Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD'
+
+2019-01-30 16:14:38 - [MESSAGE][PASSED] - Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD'
+
+2019-01-30 16:14:38 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN/NEXT_BUTTON")): Object: 'Object Repository/LOGIN/NEXT_BUTTON' is clicked on
+
+2019-01-30 16:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN/NEXT_BUTTON' is clicked on
+
+2019-01-30 16:14:38 - [TEST_STEP][PASSED] - isGoogle = verifyElementPresent(findTestObject("LOGIN/GOOGLE_LABEL"), 60): Object 'Object Repository/LOGIN/GOOGLE_LABEL' is present
+
+2019-01-30 16:14:39 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN/GOOGLE_LABEL' is present
+
+2019-01-30 16:14:39 - [TEST_STEP][PASSED] - if (isGoogle): Object: 'Object Repository/LOGIN/GOOGLE_SIGNIN_BUTTON' is clicked on
+
+2019-01-30 16:14:39 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN/GOOGLE_EMAIL_TEXTFIELD"), "noreply@you-source.com"): Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/GOOGLE_EMAIL_TEXTFIELD'
+
+2019-01-30 16:14:39 - [MESSAGE][PASSED] - Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/GOOGLE_EMAIL_TEXTFIELD'
+
+2019-01-30 16:14:39 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN/GOOGLE_NEXT_BUTTON")): Object: 'Object Repository/LOGIN/GOOGLE_NEXT_BUTTON' is clicked on
+
+2019-01-30 16:14:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN/GOOGLE_NEXT_BUTTON' is clicked on
+
+2019-01-30 16:14:39 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN/GOOGLE_PASSWORD_TEXTFIELD"), "yousource321"): Text 'yousource321' is set on object 'Object Repository/LOGIN/GOOGLE_PASSWORD_TEXTFIELD'
+
+2019-01-30 16:14:40 - [MESSAGE][PASSED] - Text 'yousource321' is set on object 'Object Repository/LOGIN/GOOGLE_PASSWORD_TEXTFIELD'
+
+2019-01-30 16:14:40 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN/GOOGLE_SIGNIN_BUTTON")): Object: 'Object Repository/LOGIN/GOOGLE_SIGNIN_BUTTON' is clicked on
+
+2019-01-30 16:14:44 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN/GOOGLE_SIGNIN_BUTTON' is clicked on
+
+2019-01-30 16:14:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("HOME/HEADLINES_TAB"), 60): Object 'Object Repository/HOME/HEADLINES_TAB' is present
+
+2019-01-30 16:14:44 - [MESSAGE][PASSED] - Object 'Object Repository/HOME/HEADLINES_TAB' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE" classname="Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE" status="PASSED">
+         <system-out><![CDATA[2019-01-30 16:14:44 - [TEST_CASE][PASSED] - Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE: Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE
+
+2019-01-30 16:14:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("MENU/IDEATION_TAB"), 60): Object 'Object Repository/MENU/IDEATION_TAB' is present
+
+2019-01-30 16:14:44 - [MESSAGE][PASSED] - Object 'Object Repository/MENU/IDEATION_TAB' is present
+
+2019-01-30 16:14:44 - [TEST_STEP][PASSED] - click(findTestObject("MENU/IDEATION_TAB")): Object: 'Object Repository/MENU/IDEATION_TAB' is clicked on
+
+2019-01-30 16:14:45 - [MESSAGE][PASSED] - Object: 'Object Repository/MENU/IDEATION_TAB' is clicked on
+
+2019-01-30 16:14:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IDEATION/TABS/IDEAS_TAB"), 60): Object 'Object Repository/IDEATION/TABS/IDEAS_TAB' is present
+
+2019-01-30 16:14:45 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/TABS/IDEAS_TAB' is present
+
+2019-01-30 16:14:45 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/TABS/IDEAS_TAB")): Object: 'Object Repository/IDEATION/TABS/IDEAS_TAB' is clicked on
+
+2019-01-30 16:14:45 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/TABS/IDEAS_TAB' is clicked on
+
+2019-01-30 16:14:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON"), 60): Object 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is present
+
+2019-01-30 16:14:45 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is present
+
+2019-01-30 16:14:45 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON")): Object: 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is clicked on
+
+2019-01-30 16:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is clicked on
+
+2019-01-30 16:14:46 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/LV_ADD_IDEA_BUTTON")): Object: 'Object Repository/IDEATION/IDEAS/LV_ADD_IDEA_BUTTON' is clicked on
+
+2019-01-30 16:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/LV_ADD_IDEA_BUTTON' is clicked on
+
+2019-01-30 16:14:46 - [TEST_STEP][PASSED] - setText(findTestObject("IDEATION/IDEAS/OC_TITLE_TEXTFIELD"), "Katalon Test"): Text 'Katalon Test' is set on object 'Object Repository/IDEATION/IDEAS/OC_TITLE_TEXTFIELD'
+
+2019-01-30 16:14:47 - [MESSAGE][PASSED] - Text 'Katalon Test' is set on object 'Object Repository/IDEATION/IDEAS/OC_TITLE_TEXTFIELD'
+
+2019-01-30 16:14:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("IDEATION/IDEAS/OC_TITLE_TEXTFIELD"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/IDEATION/IDEAS/OC_TITLE_TEXTFIELD'
+
+2019-01-30 16:14:47 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/IDEATION/IDEAS/OC_TITLE_TEXTFIELD'
+
+2019-01-30 16:14:47 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/OC_STATUS_FIELD")): Object: 'Object Repository/IDEATION/IDEAS/OC_STATUS_FIELD' is clicked on
+
+2019-01-30 16:14:47 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_STATUS_FIELD' is clicked on
+
+2019-01-30 16:14:47 - [TEST_STEP][PASSED] - stratapp.Dropdown.Select(findTestObject("IDEATION/IDEAS/OC_STATUS_DROPDOWN"), "suggested"): stratapp.Dropdown.Select is PASSED
+
+2019-01-30 16:14:47 - [MESSAGE][INFO] - suggested
+
+2019-01-30 16:14:47 - [MESSAGE][INFO] - deferred
+
+2019-01-30 16:14:47 - [MESSAGE][INFO] - in review
+
+2019-01-30 16:14:47 - [MESSAGE][INFO] - in final review
+
+2019-01-30 16:14:48 - [MESSAGE][INFO] - approved
+
+2019-01-30 16:14:48 - [MESSAGE][INFO] - completed
+
+2019-01-30 16:14:48 - [MESSAGE][INFO] - cancel
+
+2019-01-30 16:14:48 - [MESSAGE][PASSED] - stratapp.Dropdown.Select is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-30 16:14:29 - [TEST_SUITE][PASSED] - test: Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

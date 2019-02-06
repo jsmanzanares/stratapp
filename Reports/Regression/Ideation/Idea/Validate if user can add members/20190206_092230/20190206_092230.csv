@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Validate if user can add members,Chrome 71.0.3578.98,,2019-02-06 09:22:37,2019-02-06 09:22:41,4.257s,FAILED
+,,,,,,
+Test Cases/test,Chrome 71.0.3578.98,,2019-02-06 09:22:37,2019-02-06 09:22:41,3.393s,FAILED
+"openBrowser(""C:/Users/JohnSeigfredManzanar/Desktop/test.html"")",Chrome 71.0.3578.98,,2019-02-06 09:22:38,2019-02-06 09:22:41,3.129s,FAILED

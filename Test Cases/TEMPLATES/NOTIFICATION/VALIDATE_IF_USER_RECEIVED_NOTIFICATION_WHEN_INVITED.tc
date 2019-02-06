@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VALIDATE_IF_USER_RECEIVED_NOTIFICATION_WHEN_INVITED</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e329b4be-d135-4e65-87d3-791ae8702da0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5ede2aed-7294-45fe-9275-e1298aa1a1d8</id>
+      <masked>false</masked>
+      <name>TOPIC_TITLE</name>
+   </variable>
+</TestCaseEntity>

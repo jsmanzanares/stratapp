@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>OC_SOURCE_DROPDOWN</name>
+   <tag></tag>
+   <elementGuidId>d004f0c6-e8f6-4a7a-9239-57e0fce25a50</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@aria-labelledby='dropdownBasic1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@aria-labelledby='dropdownBasic1']</value>
+   </webElementProperties>
+</WebElementEntity>

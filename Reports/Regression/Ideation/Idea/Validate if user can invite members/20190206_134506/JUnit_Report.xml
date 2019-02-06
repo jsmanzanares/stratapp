@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Validate if user can invite members" time="2" tests="1" failures="0" errors="0">
+   <testsuite name="Validate if user can invite members" tests="1" failures="0" errors="0" time="2" timestamp="2019-02-06 13:45:12" hostname="JohnSeigfredManzanar - YSPC-STRATAPPQA" id="Test Suites/Regression/Ideation/Idea/Validate if user can invite members">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JohnSeigfredManzanar\\Katalon Studio\\StratApp\\Reports\\Regression\\Ideation\\Idea\\Validate if user can invite members\\20190206_134506"/>
+         <property name="logFiles" value="C:\\Users\\JohnSeigfredManzanar\\Katalon Studio\\StratApp\\Reports\\Regression\\Ideation\\Idea\\Validate if user can invite members\\20190206_134506\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="JohnSeigfredManzanar - YSPC-STRATAPPQA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="465359f1dc4cf6601e3b4f82ef62149c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TEMPLATES/LOGIN/LOGOUT_TEMPLATE" classname="Test Cases/TEMPLATES/LOGIN/LOGOUT_TEMPLATE" status="PASSED">
+         <system-out><![CDATA[2019-02-06 13:45:13 - [TEST_CASE][PASSED] - Test Cases/TEMPLATES/LOGIN/LOGOUT_TEMPLATE: Test Cases/TEMPLATES/LOGIN/LOGOUT_TEMPLATE
+
+2019-02-06 13:45:13 - [TEST_STEP][PASSED] - click(findTestObject("MENU/PROFILE_BUTTON")): Object: 'Object Repository/MENU/PROFILE_BUTTON' is clicked on
+
+2019-02-06 13:45:14 - [MESSAGE][PASSED] - Object: 'Object Repository/MENU/PROFILE_BUTTON' is clicked on
+
+2019-02-06 13:45:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("MENU/LOGOUT_BUTTON"), 60): Object 'Object Repository/MENU/LOGOUT_BUTTON' is visible
+
+2019-02-06 13:45:14 - [MESSAGE][PASSED] - Object 'Object Repository/MENU/LOGOUT_BUTTON' is visible
+
+2019-02-06 13:45:14 - [TEST_STEP][PASSED] - mouseOver(findTestObject("MENU/LOGOUT_BUTTON")): Object: 'Object Repository/MENU/LOGOUT_BUTTON' is hovered
+
+2019-02-06 13:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/MENU/LOGOUT_BUTTON' is hovered
+
+2019-02-06 13:45:15 - [TEST_STEP][PASSED] - click(findTestObject("MENU/LOGOUT_BUTTON")): Object: 'Object Repository/MENU/LOGOUT_BUTTON' is clicked on
+
+2019-02-06 13:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/MENU/LOGOUT_BUTTON' is clicked on
+
+2019-02-06 13:45:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("LOGIN/EMAIL_ADD_TEXTFIELD"), 60): Object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD' is visible
+
+2019-02-06 13:45:15 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD' is visible
+
+2019-02-06 13:45:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-06 13:45:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-06 13:45:12 - [TEST_SUITE][INCOMPLETE] - Validate if user can invite members: null]]></system-out>
+      <system-err><![CDATA[2019-02-06 13:45:12 - [TEST_SUITE][INCOMPLETE] - Validate if user can invite members: null]]></system-err>
+   </testsuite>
+</testsuites>

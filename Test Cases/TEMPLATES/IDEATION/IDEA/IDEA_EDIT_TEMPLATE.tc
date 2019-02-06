@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IDEA_EDIT_TEMPLATE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>55bc4617-1d35-4e10-9761-6b0f1df34e28</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>41a6b160-15dc-43d7-b853-b94fcd087ff5</id>
+      <masked>false</masked>
+      <name>OLD_TITLE</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3ca4c7cd-c46f-4141-b232-7ba209a27bf6</id>
+      <masked>false</masked>
+      <name>IDEA_TITLE</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>05254c49-22d1-4841-909b-51d7a21c0c2e</id>
+      <masked>false</masked>
+      <name>IDEA_STATUS</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cf97568a-54e1-4f7a-a1a4-b92c2a4ffe6d</id>
+      <masked>false</masked>
+      <name>IDEA_IMPORTANCE</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>14717e52-f313-4b65-bc2d-7efad896ed4a</id>
+      <masked>false</masked>
+      <name>IDEA_SECURITY</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Validate if user can add related topic" time="33" tests="2" failures="0" errors="1">
+   <testsuite name="Validate if user can add related topic" tests="2" failures="0" errors="1" time="33" timestamp="2019-02-04 14:23:32" hostname="JohnSeigfredManzanar - YSPC-STRATAPPQA" id="Test Suites/Regression/Ideation/Idea/Validate if user can add related topic">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JohnSeigfredManzanar\\Katalon Studio\\StratApp\\Reports\\Regression\\Ideation\\Idea\\Validate if user can add related topic\\20190204_142330"/>
+         <property name="logFiles" value="C:\\Users\\JohnSeigfredManzanar\\Katalon Studio\\StratApp\\Reports\\Regression\\Ideation\\Idea\\Validate if user can add related topic\\20190204_142330\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="JohnSeigfredManzanar - YSPC-STRATAPPQA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="9a40d29f953d0460aa82b46490186436"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TEMPLATES/LOGIN/LOGIN_TEMPLATE" classname="Test Cases/TEMPLATES/LOGIN/LOGIN_TEMPLATE" status="PASSED">
+         <system-out><![CDATA[2019-02-04 14:23:32 - [TEST_CASE][PASSED] - Test Cases/TEMPLATES/LOGIN/LOGIN_TEMPLATE: Test Cases/TEMPLATES/LOGIN/LOGIN_TEMPLATE
+
+2019-02-04 14:23:33 - [TEST_STEP][PASSED] - openBrowser("https://app.stratapp.ai/"): Browser is opened with url: 'https://app.stratapp.ai/'
+
+2019-02-04 14:23:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-04 14:23:33 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-04 14:23:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.stratapp.ai/'
+
+2019-02-04 14:23:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-04 14:23:41 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-04 14:23:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("LOGIN/EMAIL_ADD_TEXTFIELD"), 60): Object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD' is present
+
+2019-02-04 14:23:41 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD' is present
+
+2019-02-04 14:23:41 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN/EMAIL_ADD_TEXTFIELD"), "noreply@you-source.com"): Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD'
+
+2019-02-04 14:23:41 - [MESSAGE][PASSED] - Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD'
+
+2019-02-04 14:23:41 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN/NEXT_BUTTON")): Object: 'Object Repository/LOGIN/NEXT_BUTTON' is clicked on
+
+2019-02-04 14:23:41 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN/NEXT_BUTTON' is clicked on
+
+2019-02-04 14:23:41 - [TEST_STEP][PASSED] - isGoogle = verifyElementPresent(findTestObject("LOGIN/GOOGLE_LABEL"), 60): Object 'Object Repository/LOGIN/GOOGLE_LABEL' is present
+
+2019-02-04 14:23:42 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN/GOOGLE_LABEL' is present
+
+2019-02-04 14:23:42 - [TEST_STEP][PASSED] - if (isGoogle): Object: 'Object Repository/LOGIN/GOOGLE_SIGNIN_BUTTON' is clicked on
+
+2019-02-04 14:23:42 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN/GOOGLE_EMAIL_TEXTFIELD"), "noreply@you-source.com"): Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/GOOGLE_EMAIL_TEXTFIELD'
+
+2019-02-04 14:23:42 - [MESSAGE][PASSED] - Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/GOOGLE_EMAIL_TEXTFIELD'
+
+2019-02-04 14:23:42 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN/GOOGLE_NEXT_BUTTON")): Object: 'Object Repository/LOGIN/GOOGLE_NEXT_BUTTON' is clicked on
+
+2019-02-04 14:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN/GOOGLE_NEXT_BUTTON' is clicked on
+
+2019-02-04 14:23:43 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN/GOOGLE_PASSWORD_TEXTFIELD"), "yousource321"): Text 'yousource321' is set on object 'Object Repository/LOGIN/GOOGLE_PASSWORD_TEXTFIELD'
+
+2019-02-04 14:23:43 - [MESSAGE][PASSED] - Text 'yousource321' is set on object 'Object Repository/LOGIN/GOOGLE_PASSWORD_TEXTFIELD'
+
+2019-02-04 14:23:43 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN/GOOGLE_SIGNIN_BUTTON")): Object: 'Object Repository/LOGIN/GOOGLE_SIGNIN_BUTTON' is clicked on
+
+2019-02-04 14:23:47 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN/GOOGLE_SIGNIN_BUTTON' is clicked on
+
+2019-02-04 14:23:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("HOME/HEADLINES_TAB"), 60): Object 'Object Repository/HOME/HEADLINES_TAB' is present
+
+2019-02-04 14:23:47 - [MESSAGE][PASSED] - Object 'Object Repository/HOME/HEADLINES_TAB' is present
+
+2019-02-04 14:23:47 - [TEST_STEP][PASSED] - stratapp.Login.GetUserName(): stratapp.Login.GetUserName is PASSED
+
+2019-02-04 14:23:47 - [MESSAGE][INFO] - User JSON {"firstName":"No","lastName":"Reply","fullName":"No Reply","tenantId":"f385ee6b-2a69-4463-9fc8-01259f2c5c03","userId":"37c0108d-8dbd-46cd-aeeb-ca484d1d8c22","role":["PeopleAdmin","StrategyAdmin","IdeationAdmin","HeadlinesAdmin","HRAdmin","BillingAdmin","Admin","SuperAdmin"]}
+
+2019-02-04 14:23:47 - [MESSAGE][INFO] - Full Name: No Reply
+
+2019-02-04 14:23:47 - [MESSAGE][PASSED] - stratapp.Login.GetUserName is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_TEMPLATE" classname="Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_TEMPLATE" status="PASSED">
+         <system-out><![CDATA[2019-02-04 14:23:47 - [TEST_CASE][PASSED] - Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_TEMPLATE: Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_TEMPLATE
+
+2019-02-04 14:23:48 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("MENU/IDEATION_TAB"), 60): Object 'Object Repository/MENU/IDEATION_TAB' is clickable
+
+2019-02-04 14:23:48 - [MESSAGE][PASSED] - Object 'Object Repository/MENU/IDEATION_TAB' is clickable
+
+2019-02-04 14:23:48 - [TEST_STEP][PASSED] - mouseOver(findTestObject("MENU/IDEATION_TAB"), STOP_ON_FAILURE): Object: 'Object Repository/MENU/IDEATION_TAB' is hovered
+
+2019-02-04 14:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/MENU/IDEATION_TAB' is hovered
+
+2019-02-04 14:23:48 - [TEST_STEP][PASSED] - click(findTestObject("MENU/IDEATION_TAB")): Object: 'Object Repository/MENU/IDEATION_TAB' is clicked on
+
+2019-02-04 14:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/MENU/IDEATION_TAB' is clicked on
+
+2019-02-04 14:23:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IDEATION/TABS/IDEAS_TAB"), 60): Object 'Object Repository/IDEATION/TABS/IDEAS_TAB' is present
+
+2019-02-04 14:23:48 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/TABS/IDEAS_TAB' is present
+
+2019-02-04 14:23:48 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/TABS/IDEAS_TAB"), STOP_ON_FAILURE): Object: 'Object Repository/IDEATION/TABS/IDEAS_TAB' is hovered
+
+2019-02-04 14:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/TABS/IDEAS_TAB' is hovered
+
+2019-02-04 14:23:48 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/TABS/IDEAS_TAB")): Object: 'Object Repository/IDEATION/TABS/IDEAS_TAB' is clicked on
+
+2019-02-04 14:23:49 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/TABS/IDEAS_TAB' is clicked on
+
+2019-02-04 14:23:49 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON"), 60): Object 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is clickable
+
+2019-02-04 14:23:49 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is clickable
+
+2019-02-04 14:23:49 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON")): Object: 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is hovered
+
+2019-02-04 14:23:49 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is hovered
+
+2019-02-04 14:23:49 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON")): Object: 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is clicked on
+
+2019-02-04 14:23:50 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is clicked on
+
+2019-02-04 14:23:50 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/LV_ADD_IDEA_BUTTON")): Object: 'Object Repository/IDEATION/IDEAS/LV_ADD_IDEA_BUTTON' is clicked on
+
+2019-02-04 14:23:50 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/LV_ADD_IDEA_BUTTON' is clicked on
+
+2019-02-04 14:23:50 - [TEST_STEP][PASSED] - setText(findTestObject("IDEATION/IDEAS/OC_TITLE_TEXTFIELD"), IDEA_TITLE): Text 'AUTO IDEA TITLE W RELATED' is set on object 'Object Repository/IDEATION/IDEAS/OC_TITLE_TEXTFIELD'
+
+2019-02-04 14:23:51 - [MESSAGE][PASSED] - Text 'AUTO IDEA TITLE W RELATED' is set on object 'Object Repository/IDEATION/IDEAS/OC_TITLE_TEXTFIELD'
+
+2019-02-04 14:23:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("IDEATION/IDEAS/OC_TITLE_TEXTFIELD"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/IDEATION/IDEAS/OC_TITLE_TEXTFIELD'
+
+2019-02-04 14:23:51 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/IDEATION/IDEAS/OC_TITLE_TEXTFIELD'
+
+2019-02-04 14:23:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("IDEATION/IDEAS/OC_STATUS_FIELD"), 0): Object 'Object Repository/IDEATION/IDEAS/OC_STATUS_FIELD' is visible
+
+2019-02-04 14:23:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-04 14:23:51 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/IDEAS/OC_STATUS_FIELD' is visible
+
+2019-02-04 14:23:51 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/IDEAS/OC_STATUS_FIELD")): Object: 'Object Repository/IDEATION/IDEAS/OC_STATUS_FIELD' is hovered
+
+2019-02-04 14:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_STATUS_FIELD' is hovered
+
+2019-02-04 14:23:51 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/OC_STATUS_FIELD")): Object: 'Object Repository/IDEATION/IDEAS/OC_STATUS_FIELD' is clicked on
+
+2019-02-04 14:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_STATUS_FIELD' is clicked on
+
+2019-02-04 14:23:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("IDEATION/IDEAS/OC_STATUS_DROPDOWN"), 60): Object 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN' is visible
+
+2019-02-04 14:23:51 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN' is visible
+
+2019-02-04 14:23:51 - [TEST_STEP][PASSED] - stratapp.Dropdown.Select(findTestObject("IDEATION/IDEAS/OC_STATUS_DROPDOWN"), IDEA_STATUS): stratapp.Dropdown.Select is PASSED
+
+2019-02-04 14:23:51 - [MESSAGE][INFO] - suggested is not part of dropdown list
+
+2019-02-04 14:23:51 - [MESSAGE][PASSED] - stratapp.Dropdown.Select is PASSED
+
+2019-02-04 14:23:51 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/IDEAS/OC_IMPORTANCE_FIELD")): Object: 'Object Repository/IDEATION/IDEAS/OC_IMPORTANCE_FIELD' is hovered
+
+2019-02-04 14:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_IMPORTANCE_FIELD' is hovered
+
+2019-02-04 14:23:52 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/OC_IMPORTANCE_FIELD")): Object: 'Object Repository/IDEATION/IDEAS/OC_IMPORTANCE_FIELD' is clicked on
+
+2019-02-04 14:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_IMPORTANCE_FIELD' is clicked on
+
+2019-02-04 14:23:52 - [TEST_STEP][PASSED] - stratapp.Dropdown.Select(findTestObject("IDEATION/IDEAS/OC_IMPORTANCE_DROPDOWN"), IDEA_IMPORTANCE): stratapp.Dropdown.Select is PASSED
+
+2019-02-04 14:23:52 - [MESSAGE][INFO] - framing is not part of dropdown list
+
+2019-02-04 14:23:52 - [MESSAGE][PASSED] - stratapp.Dropdown.Select is PASSED
+
+2019-02-04 14:23:52 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/IDEAS/OC_SECURITY_FIELD")): Object: 'Object Repository/IDEATION/IDEAS/OC_SECURITY_FIELD' is hovered
+
+2019-02-04 14:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_SECURITY_FIELD' is hovered
+
+2019-02-04 14:23:52 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/OC_SECURITY_FIELD")): Object: 'Object Repository/IDEATION/IDEAS/OC_SECURITY_FIELD' is clicked on
+
+2019-02-04 14:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_SECURITY_FIELD' is clicked on
+
+2019-02-04 14:23:52 - [TEST_STEP][PASSED] - stratapp.Dropdown.Select(findTestObject("IDEATION/IDEAS/OC_SECURITY_DROPDOWN"), IDEA_SECURITY): stratapp.Dropdown.Select is PASSED
+
+2019-02-04 14:23:52 - [MESSAGE][INFO] - restricted is not part of dropdown list
+
+2019-02-04 14:23:52 - [MESSAGE][PASSED] - stratapp.Dropdown.Select is PASSED
+
+2019-02-04 14:23:52 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/IDEAS/OC_SOURCE_FIELD")): Object: 'Object Repository/IDEATION/IDEAS/OC_SOURCE_FIELD' is hovered
+
+2019-02-04 14:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_SOURCE_FIELD' is hovered
+
+2019-02-04 14:23:52 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/OC_SOURCE_FIELD")): Object: 'Object Repository/IDEATION/IDEAS/OC_SOURCE_FIELD' is clicked on
+
+2019-02-04 14:23:53 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_SOURCE_FIELD' is clicked on
+
+2019-02-04 14:23:53 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/IDEAS/OC_SOURCE_TYPE_BUTTON")): Object: 'Object Repository/IDEATION/IDEAS/OC_SOURCE_TYPE_BUTTON' is hovered
+
+2019-02-04 14:23:53 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_SOURCE_TYPE_BUTTON' is hovered
+
+2019-02-04 14:23:53 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/OC_SOURCE_TYPE_BUTTON")): Object: 'Object Repository/IDEATION/IDEAS/OC_SOURCE_TYPE_BUTTON' is clicked on
+
+2019-02-04 14:23:53 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_SOURCE_TYPE_BUTTON' is clicked on
+
+2019-02-04 14:23:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("IDEATION/IDEAS/OC_STATUS_DROPDOWN"), 60): Object 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN' is visible
+
+2019-02-04 14:23:53 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN' is visible
+
+2019-02-04 14:23:53 - [TEST_STEP][PASSED] - stratapp.Dropdown.AddSource(findTestObject("IDEATION/IDEAS/OC_SOURCE_DROPDOWN"), IDEA_SOURCE): stratapp.Dropdown.AddSource is PASSED
+
+2019-02-04 14:23:53 - [MESSAGE][INFO] -  selected
+
+2019-02-04 14:23:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-04 14:23:59 - [MESSAGE][PASSED] - stratapp.Dropdown.AddSource is PASSED
+
+2019-02-04 14:23:59 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_ADD_EDIT_CONTENT_BUTTON")): Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_ADD_EDIT_CONTENT_BUTTON' is hovered
+
+2019-02-04 14:23:59 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_ADD_EDIT_CONTENT_BUTTON' is hovered
+
+2019-02-04 14:23:59 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_ADD_EDIT_CONTENT_BUTTON")): Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_ADD_EDIT_CONTENT_BUTTON' is clicked on
+
+2019-02-04 14:23:59 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_ADD_EDIT_CONTENT_BUTTON' is clicked on
+
+2019-02-04 14:23:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_TEXTAREA"), 60): Object 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_TEXTAREA' is visible
+
+2019-02-04 14:23:59 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_TEXTAREA' is visible
+
+2019-02-04 14:23:59 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_TEXTAREA")): Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_TEXTAREA' is hovered
+
+2019-02-04 14:23:59 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_TEXTAREA' is hovered
+
+2019-02-04 14:23:59 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_TEXTAREA")): Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_TEXTAREA' is clicked on
+
+2019-02-04 14:24:00 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_TEXTAREA' is clicked on
+
+2019-02-04 14:24:00 - [TEST_STEP][PASSED] - stratapp.NonInput.SendKeys(findTestObject("IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_TEXTAREA"), IDEA_SUMMARY): stratapp.NonInput.SendKeys is PASSED
+
+2019-02-04 14:24:00 - [MESSAGE][PASSED] - stratapp.NonInput.SendKeys is PASSED
+
+2019-02-04 14:24:00 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SAVE_BUTTON"), CONTINUE_ON_FAILURE): Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SAVE_BUTTON' is hovered
+
+2019-02-04 14:24:00 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SAVE_BUTTON' is hovered
+
+2019-02-04 14:24:00 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SAVE_BUTTON")): Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SAVE_BUTTON' is clicked on
+
+2019-02-04 14:24:00 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SAVE_BUTTON' is clicked on
+
+2019-02-04 14:24:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_PARAGRAPH"), 60): Object 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_PARAGRAPH' is visible
+
+2019-02-04 14:24:00 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_PARAGRAPH' is visible
+
+2019-02-04 14:24:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("IDEATION/IDEAS/OC_STATUS_FIELD"), IDEA_STATUS.toUpperCase(), CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/OC_STATUS_FIELD' are matched.
+
+2019-02-04 14:24:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/OC_STATUS_FIELD' are matched.
+
+2019-02-04 14:24:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("IDEATION/IDEAS/OC_IMPORTANCE_FIELD"), IDEA_IMPORTANCE, CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/OC_IMPORTANCE_FIELD' are matched.
+
+2019-02-04 14:24:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/OC_IMPORTANCE_FIELD' are matched.
+
+2019-02-04 14:24:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("IDEATION/IDEAS/OC_SECURITY_FIELD"), IDEA_SECURITY, CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/OC_SECURITY_FIELD' are matched.
+
+2019-02-04 14:24:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/OC_SECURITY_FIELD' are matched.
+
+2019-02-04 14:24:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("IDEATION/IDEAS/OC_USERNAME_LINK"), UserName, CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/OC_USERNAME_LINK' are matched.
+
+2019-02-04 14:24:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/OC_USERNAME_LINK' are matched.
+
+2019-02-04 14:24:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_PARAGRAPH"), IDEA_SUMMARY, CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_PARAGRAPH' are matched.
+
+2019-02-04 14:24:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_PARAGRAPH' are matched.
+
+2019-02-04 14:24:01 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/IDEAS/OC_CLOSE_BUTTON")): Object: 'Object Repository/IDEATION/IDEAS/OC_CLOSE_BUTTON' is hovered
+
+2019-02-04 14:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_CLOSE_BUTTON' is hovered
+
+2019-02-04 14:24:01 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/OC_CLOSE_BUTTON")): Object: 'Object Repository/IDEATION/IDEAS/OC_CLOSE_BUTTON' is clicked on
+
+2019-02-04 14:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_CLOSE_BUTTON' is clicked on
+
+2019-02-04 14:24:01 - [TEST_STEP][PASSED] - setText(findTestObject("IDEATION/IDEAS/LV_SEARCH_TEXTFIELD"), IDEA_TITLE): Text 'AUTO IDEA TITLE W RELATED' is set on object 'Object Repository/IDEATION/IDEAS/LV_SEARCH_TEXTFIELD'
+
+2019-02-04 14:24:01 - [MESSAGE][PASSED] - Text 'AUTO IDEA TITLE W RELATED' is set on object 'Object Repository/IDEATION/IDEAS/LV_SEARCH_TEXTFIELD'
+
+2019-02-04 14:24:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IDEATION/IDEAS/LV_IDEA_TITLE"), 60): Object 'Object Repository/IDEATION/IDEAS/LV_IDEA_TITLE' is present
+
+2019-02-04 14:24:01 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/IDEAS/LV_IDEA_TITLE' is present
+
+2019-02-04 14:24:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("IDEATION/IDEAS/LV_IDEA_TITLE"), IDEA_TITLE): Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/LV_IDEA_TITLE' are matched.
+
+2019-02-04 14:24:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/LV_IDEA_TITLE' are matched.
+
+2019-02-04 14:24:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("IDEATION/IDEAS/LV_STATUS_FIELD"), IDEA_STATUS.toUpperCase()): Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/LV_STATUS_FIELD' are matched.
+
+2019-02-04 14:24:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/LV_STATUS_FIELD' are matched.
+
+2019-02-04 14:24:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("IDEATION/IDEAS/LV_IMPORTANCE_FIELD"), IDEA_IMPORTANCE): Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/LV_IMPORTANCE_FIELD' are matched.
+
+2019-02-04 14:24:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/LV_IMPORTANCE_FIELD' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_RELATED_TOPICS_TEMPLATE" classname="Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_RELATED_TOPICS_TEMPLATE" status="ERROR">
+         <error type="ERROR" message="Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_RELATED_TOPICS_TEMPLATE FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: RISK_TITLE for class: Script1548929286763
+	at ADD_RELATED_RISK_TEMPLATE.run(ADD_RELATED_RISK_TEMPLATE:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at IDEA_ADD_RELATED_TOPICS_TEMPLATE.run(IDEA_ADD_RELATED_TOPICS_TEMPLATE:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549261410921.run(TempTestSuite1549261410921.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-04 14:24:01 - [TEST_CASE][ERROR] - Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_RELATED_TOPICS_TEMPLATE: Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_RELATED_TOPICS_TEMPLATE FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: RISK_TITLE for class: Script1548929286763
+	at ADD_RELATED_RISK_TEMPLATE.run(ADD_RELATED_RISK_TEMPLATE:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at IDEA_ADD_RELATED_TOPICS_TEMPLATE.run(IDEA_ADD_RELATED_TOPICS_TEMPLATE:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549261410921.run(TempTestSuite1549261410921.groovy:36)
+
+
+2019-02-04 14:24:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("MENU/IDEATION_TAB"), 60): Object 'Object Repository/MENU/IDEATION_TAB' is present
+
+2019-02-04 14:24:01 - [MESSAGE][PASSED] - Object 'Object Repository/MENU/IDEATION_TAB' is present
+
+2019-02-04 14:24:01 - [TEST_STEP][PASSED] - mouseOver(findTestObject("MENU/IDEATION_TAB"), STOP_ON_FAILURE): Object: 'Object Repository/MENU/IDEATION_TAB' is hovered
+
+2019-02-04 14:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/MENU/IDEATION_TAB' is hovered
+
+2019-02-04 14:24:01 - [TEST_STEP][PASSED] - click(findTestObject("MENU/IDEATION_TAB")): Object: 'Object Repository/MENU/IDEATION_TAB' is clicked on
+
+2019-02-04 14:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/MENU/IDEATION_TAB' is clicked on
+
+2019-02-04 14:24:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IDEATION/TABS/IDEAS_TAB"), 60): Object 'Object Repository/IDEATION/TABS/IDEAS_TAB' is present
+
+2019-02-04 14:24:01 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/TABS/IDEAS_TAB' is present
+
+2019-02-04 14:24:01 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/TABS/IDEAS_TAB"), STOP_ON_FAILURE): Object: 'Object Repository/IDEATION/TABS/IDEAS_TAB' is hovered
+
+2019-02-04 14:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/TABS/IDEAS_TAB' is hovered
+
+2019-02-04 14:24:01 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/TABS/IDEAS_TAB")): Object: 'Object Repository/IDEATION/TABS/IDEAS_TAB' is clicked on
+
+2019-02-04 14:24:02 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/TABS/IDEAS_TAB' is clicked on
+
+2019-02-04 14:24:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON"), 60): Object 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is present
+
+2019-02-04 14:24:02 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is present
+
+2019-02-04 14:24:02 - [TEST_STEP][PASSED] - setText(findTestObject("IDEATION/IDEAS/LV_SEARCH_TEXTFIELD"), IDEA_TITLE): Text 'AUTO IDEA TITLE W RELATED' is set on object 'Object Repository/IDEATION/IDEAS/LV_SEARCH_TEXTFIELD'
+
+2019-02-04 14:24:03 - [MESSAGE][PASSED] - Text 'AUTO IDEA TITLE W RELATED' is set on object 'Object Repository/IDEATION/IDEAS/LV_SEARCH_TEXTFIELD'
+
+2019-02-04 14:24:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IDEATION/IDEAS/LV_IDEA_TITLE"), 60): Object 'Object Repository/IDEATION/IDEAS/LV_IDEA_TITLE' is present
+
+2019-02-04 14:24:03 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/IDEAS/LV_IDEA_TITLE' is present
+
+2019-02-04 14:24:03 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/IDEAS/LV_IDEA_TITLE")): Object: 'Object Repository/IDEATION/IDEAS/LV_IDEA_TITLE' is hovered
+
+2019-02-04 14:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/LV_IDEA_TITLE' is hovered
+
+2019-02-04 14:24:03 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/LV_IDEA_TITLE")): Object: 'Object Repository/IDEATION/IDEAS/LV_IDEA_TITLE' is clicked on
+
+2019-02-04 14:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/LV_IDEA_TITLE' is clicked on
+
+2019-02-04 14:24:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("IDEATION/IDEAS/IDEA_CARD"), 60): Object 'Object Repository/IDEATION/IDEAS/IDEA_CARD' is visible
+
+2019-02-04 14:24:03 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/IDEAS/IDEA_CARD' is visible
+
+2019-02-04 14:24:03 - [TEST_STEP][FAILED] - if (RELATED_RISK == "YES"): Unable to call Test Case 'Test Cases/TEMPLATES/IDEATION/RELATED/ADD_RELATED_RISK_TEMPLATE' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TEMPLATES/IDEATION/RELATED/ADD_RELATED_RISK_TEMPLATE' failed because of error(s))
+
+2019-02-04 14:24:03 - [TEST_STEP][FAILED] - callTestCase(findTestCase("TEMPLATES/IDEATION/RELATED/ADD_RELATED_RISK_TEMPLATE"), [RISK_TITLE:RISK_TITLE], CONTINUE_ON_FAILURE): Unable to call Test Case 'Test Cases/TEMPLATES/IDEATION/RELATED/ADD_RELATED_RISK_TEMPLATE' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TEMPLATES/IDEATION/RELATED/ADD_RELATED_RISK_TEMPLATE' failed because of error(s))
+
+2019-02-04 14:24:03 - [TEST_CASE][ERROR] - Test Cases/TEMPLATES/IDEATION/RELATED/ADD_RELATED_RISK_TEMPLATE: Test Cases/TEMPLATES/IDEATION/RELATED/ADD_RELATED_RISK_TEMPLATE FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: RISK_TITLE for class: Script1548929286763
+	at ADD_RELATED_RISK_TEMPLATE.run(ADD_RELATED_RISK_TEMPLATE:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at IDEA_ADD_RELATED_TOPICS_TEMPLATE.run(IDEA_ADD_RELATED_TOPICS_TEMPLATE:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549261410921.run(TempTestSuite1549261410921.groovy:36)
+
+
+2019-02-04 14:24:03 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/LV2 NAV/RELATED/RELATED_TAB")): Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RELATED_TAB' is hovered
+
+2019-02-04 14:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RELATED_TAB' is hovered
+
+2019-02-04 14:24:03 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/LV2 NAV/RELATED/RELATED_TAB")): Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RELATED_TAB' is clicked on
+
+2019-02-04 14:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RELATED_TAB' is clicked on
+
+2019-02-04 14:24:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("IDEATION/LV2 NAV/RELATED/RISKS/RELATED_RISKS_TAB"), 60): Object 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/RELATED_RISKS_TAB' is visible
+
+2019-02-04 14:24:04 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/RELATED_RISKS_TAB' is visible
+
+2019-02-04 14:24:04 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/LV2 NAV/RELATED/RISKS/RELATED_RISKS_TAB")): Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/RELATED_RISKS_TAB' is hovered
+
+2019-02-04 14:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/RELATED_RISKS_TAB' is hovered
+
+2019-02-04 14:24:04 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/LV2 NAV/RELATED/RISKS/RELATED_RISKS_TAB")): Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/RELATED_RISKS_TAB' is clicked on
+
+2019-02-04 14:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/RELATED_RISKS_TAB' is clicked on
+
+2019-02-04 14:24:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("IDEATION/LV2 NAV/RELATED/RISKS/OC_ADD_RISK_BUTTON"), 60): Object 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/OC_ADD_RISK_BUTTON' is visible
+
+2019-02-04 14:24:04 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/OC_ADD_RISK_BUTTON' is visible
+
+2019-02-04 14:24:04 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/LV2 NAV/RELATED/RISKS/OC_ADD_RISK_BUTTON")): Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/OC_ADD_RISK_BUTTON' is hovered
+
+2019-02-04 14:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/OC_ADD_RISK_BUTTON' is hovered
+
+2019-02-04 14:24:04 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/LV2 NAV/RELATED/RISKS/OC_ADD_RISK_BUTTON")): Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/OC_ADD_RISK_BUTTON' is clicked on
+
+2019-02-04 14:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/OC_ADD_RISK_BUTTON' is clicked on
+
+2019-02-04 14:24:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("STRATEGY/RISKS/OC_RISK_TITLE_FIELD"), 60): Object 'Object Repository/STRATEGY/RISKS/OC_RISK_TITLE_FIELD' is visible
+
+2019-02-04 14:24:04 - [MESSAGE][PASSED] - Object 'Object Repository/STRATEGY/RISKS/OC_RISK_TITLE_FIELD' is visible
+
+2019-02-04 14:24:04 - [TEST_STEP][ERROR] - setText(findTestObject("STRATEGY/RISKS/OC_RISK_TITLE_FIELD"), RISK_TITLE): setText(findTestObject("STRATEGY/RISKS/OC_RISK_TITLE_FIELD"), RISK_TITLE) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: RISK_TITLE for class: Script1548929286763
+	at ADD_RELATED_RISK_TEMPLATE.run(ADD_RELATED_RISK_TEMPLATE:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at IDEA_ADD_RELATED_TOPICS_TEMPLATE.run(IDEA_ADD_RELATED_TOPICS_TEMPLATE:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549261410921.run(TempTestSuite1549261410921.groovy:36)
+
+
+2019-02-04 14:24:04 - [MESSAGE][ERROR] - setText(findTestObject("STRATEGY/RISKS/OC_RISK_TITLE_FIELD"), RISK_TITLE) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: RISK_TITLE for class: Script1548929286763
+	at ADD_RELATED_RISK_TEMPLATE.run(ADD_RELATED_RISK_TEMPLATE:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at IDEA_ADD_RELATED_TOPICS_TEMPLATE.run(IDEA_ADD_RELATED_TOPICS_TEMPLATE:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549261410921.run(TempTestSuite1549261410921.groovy:36)
+
+
+2019-02-04 14:24:04 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/TEMPLATES/IDEATION/RELATED/ADD_RELATED_RISK_TEMPLATE' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TEMPLATES/IDEATION/RELATED/ADD_RELATED_RISK_TEMPLATE' failed because of error(s))
+
+2019-02-04 14:24:04 - [TEST_STEP][ERROR] - if (RELATED_KPI == "YES"): if (RELATED_KPI == "YES") FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: RISK_TITLE for class: Script1548929286763
+	at ADD_RELATED_RISK_TEMPLATE.run(ADD_RELATED_RISK_TEMPLATE:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at IDEA_ADD_RELATED_TOPICS_TEMPLATE.run(IDEA_ADD_RELATED_TOPICS_TEMPLATE:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549261410921.run(TempTestSuite1549261410921.groovy:36)
+
+
+2019-02-04 14:24:04 - [MESSAGE][ERROR] - if (RELATED_KPI == "YES") FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: RISK_TITLE for class: Script1548929286763
+	at ADD_RELATED_RISK_TEMPLATE.run(ADD_RELATED_RISK_TEMPLATE:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at IDEA_ADD_RELATED_TOPICS_TEMPLATE.run(IDEA_ADD_RELATED_TOPICS_TEMPLATE:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549261410921.run(TempTestSuite1549261410921.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-04 14:24:01 - [TEST_CASE][ERROR] - Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_RELATED_TOPICS_TEMPLATE: Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_RELATED_TOPICS_TEMPLATE FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: RISK_TITLE for class: Script1548929286763
+	at ADD_RELATED_RISK_TEMPLATE.run(ADD_RELATED_RISK_TEMPLATE:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at IDEA_ADD_RELATED_TOPICS_TEMPLATE.run(IDEA_ADD_RELATED_TOPICS_TEMPLATE:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549261410921.run(TempTestSuite1549261410921.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-04 14:23:32 - [TEST_SUITE][ERROR] - Validate if user can add related topic: Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_RELATED_TOPICS_TEMPLATE FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: RISK_TITLE for class: Script1548929286763
+	at ADD_RELATED_RISK_TEMPLATE.run(ADD_RELATED_RISK_TEMPLATE:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at IDEA_ADD_RELATED_TOPICS_TEMPLATE.run(IDEA_ADD_RELATED_TOPICS_TEMPLATE:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549261410921.run(TempTestSuite1549261410921.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-04 14:23:32 - [TEST_SUITE][ERROR] - Validate if user can add related topic: Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_RELATED_TOPICS_TEMPLATE FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: RISK_TITLE for class: Script1548929286763
+	at ADD_RELATED_RISK_TEMPLATE.run(ADD_RELATED_RISK_TEMPLATE:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at IDEA_ADD_RELATED_TOPICS_TEMPLATE.run(IDEA_ADD_RELATED_TOPICS_TEMPLATE:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549261410921.run(TempTestSuite1549261410921.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

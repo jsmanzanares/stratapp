@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>LV_STATUS_FIELD</name>
+   <tag></tag>
+   <elementGuidId>678ba375-6c7a-43e9-a88c-1e427c2163f6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[contains(@class,'card-status')]/span)[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[contains(@class,'card-status')]/span)[1]</value>
+   </webElementProperties>
+</WebElementEntity>

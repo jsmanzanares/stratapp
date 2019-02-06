@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="26" tests="1" failures="0" errors="1">
+   <testsuite name="test" tests="1" failures="0" errors="1" time="26" timestamp="2019-01-30 15:51:45" hostname="JohnSeigfredManzanar - YSPC-STRATAPPQA" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JohnSeigfredManzanar\\Katalon Studio\\StratApp\\Reports\\test\\20190130_155139"/>
+         <property name="logFiles" value="C:\\Users\\JohnSeigfredManzanar\\Katalon Studio\\StratApp\\Reports\\test\\20190130_155139\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="JohnSeigfredManzanar - YSPC-STRATAPPQA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="a0fdd819a7718350c2c804325bdd7017"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LOGIN/LOGIN_TEMPLATE" classname="Test Cases/LOGIN/LOGIN_TEMPLATE" status="PASSED">
+         <system-out><![CDATA[2019-01-30 15:51:46 - [TEST_CASE][PASSED] - Test Cases/LOGIN/LOGIN_TEMPLATE: Test Cases/LOGIN/LOGIN_TEMPLATE
+
+2019-01-30 15:51:46 - [TEST_STEP][PASSED] - openBrowser("https://app.stratapp.ai/"): Browser is opened with url: 'https://app.stratapp.ai/'
+
+2019-01-30 15:51:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-30 15:51:46 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-30 15:52:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.stratapp.ai/'
+
+2019-01-30 15:52:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-30 15:52:01 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-30 15:52:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("LOGIN/EMAIL_ADD_TEXTFIELD"), 60): Object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD' is present
+
+2019-01-30 15:52:02 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD' is present
+
+2019-01-30 15:52:02 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN/EMAIL_ADD_TEXTFIELD"), "noreply@you-source.com"): Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD'
+
+2019-01-30 15:52:02 - [MESSAGE][PASSED] - Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD'
+
+2019-01-30 15:52:02 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN/NEXT_BUTTON")): Object: 'Object Repository/LOGIN/NEXT_BUTTON' is clicked on
+
+2019-01-30 15:52:02 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN/NEXT_BUTTON' is clicked on
+
+2019-01-30 15:52:02 - [TEST_STEP][PASSED] - isGoogle = verifyElementPresent(findTestObject("LOGIN/GOOGLE_LABEL"), 60): Object 'Object Repository/LOGIN/GOOGLE_LABEL' is present
+
+2019-01-30 15:52:03 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN/GOOGLE_LABEL' is present
+
+2019-01-30 15:52:03 - [TEST_STEP][PASSED] - if (isGoogle): Object: 'Object Repository/LOGIN/GOOGLE_SIGNIN_BUTTON' is clicked on
+
+2019-01-30 15:52:03 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN/GOOGLE_EMAIL_TEXTFIELD"), "noreply@you-source.com"): Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/GOOGLE_EMAIL_TEXTFIELD'
+
+2019-01-30 15:52:03 - [MESSAGE][PASSED] - Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/GOOGLE_EMAIL_TEXTFIELD'
+
+2019-01-30 15:52:03 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN/GOOGLE_NEXT_BUTTON")): Object: 'Object Repository/LOGIN/GOOGLE_NEXT_BUTTON' is clicked on
+
+2019-01-30 15:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN/GOOGLE_NEXT_BUTTON' is clicked on
+
+2019-01-30 15:52:03 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN/GOOGLE_PASSWORD_TEXTFIELD"), "yousource321"): Text 'yousource321' is set on object 'Object Repository/LOGIN/GOOGLE_PASSWORD_TEXTFIELD'
+
+2019-01-30 15:52:04 - [MESSAGE][PASSED] - Text 'yousource321' is set on object 'Object Repository/LOGIN/GOOGLE_PASSWORD_TEXTFIELD'
+
+2019-01-30 15:52:04 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN/GOOGLE_SIGNIN_BUTTON")): Object: 'Object Repository/LOGIN/GOOGLE_SIGNIN_BUTTON' is clicked on
+
+2019-01-30 15:52:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN/GOOGLE_SIGNIN_BUTTON' is clicked on
+
+2019-01-30 15:52:07 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("HOME/HEADLINES_TAB"), 60): Object 'Object Repository/HOME/HEADLINES_TAB' is present
+
+2019-01-30 15:52:07 - [MESSAGE][PASSED] - Object 'Object Repository/HOME/HEADLINES_TAB' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE" classname="Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE" status="ERROR">
+         <error type="ERROR" message="Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at stratapp.Dropdown.invokeMethod(Dropdown.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at IDEA_ADD_TEMPLATE.run(IDEA_ADD_TEMPLATE:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548834704266.run(TempTestSuite1548834704266.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at stratapp.Dropdown.Select(Dropdown.groovy:34)
+	at stratapp.Dropdown.invokeMethod(Dropdown.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1548819799637.run(Script1548819799637.groovy:37)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-01-30 15:52:07 - [TEST_CASE][ERROR] - Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE: Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at stratapp.Dropdown.invokeMethod(Dropdown.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at IDEA_ADD_TEMPLATE.run(IDEA_ADD_TEMPLATE:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548834704266.run(TempTestSuite1548834704266.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at stratapp.Dropdown.Select(Dropdown.groovy:34)
+	at stratapp.Dropdown.invokeMethod(Dropdown.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1548819799637.run(Script1548819799637.groovy:37)
+	... 13 more
+
+
+2019-01-30 15:52:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("MENU/IDEATION_TAB"), 60): Object 'Object Repository/MENU/IDEATION_TAB' is present
+
+2019-01-30 15:52:08 - [MESSAGE][PASSED] - Object 'Object Repository/MENU/IDEATION_TAB' is present
+
+2019-01-30 15:52:08 - [TEST_STEP][PASSED] - click(findTestObject("MENU/IDEATION_TAB")): Object: 'Object Repository/MENU/IDEATION_TAB' is clicked on
+
+2019-01-30 15:52:08 - [MESSAGE][PASSED] - Object: 'Object Repository/MENU/IDEATION_TAB' is clicked on
+
+2019-01-30 15:52:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IDEATION/TABS/IDEAS_TAB"), 60): Object 'Object Repository/IDEATION/TABS/IDEAS_TAB' is present
+
+2019-01-30 15:52:08 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/TABS/IDEAS_TAB' is present
+
+2019-01-30 15:52:08 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/TABS/IDEAS_TAB")): Object: 'Object Repository/IDEATION/TABS/IDEAS_TAB' is clicked on
+
+2019-01-30 15:52:09 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/TABS/IDEAS_TAB' is clicked on
+
+2019-01-30 15:52:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON"), 60): Object 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is present
+
+2019-01-30 15:52:09 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is present
+
+2019-01-30 15:52:09 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON")): Object: 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is clicked on
+
+2019-01-30 15:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is clicked on
+
+2019-01-30 15:52:10 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/LV_ADD_IDEA_BUTTON")): Object: 'Object Repository/IDEATION/IDEAS/LV_ADD_IDEA_BUTTON' is clicked on
+
+2019-01-30 15:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/LV_ADD_IDEA_BUTTON' is clicked on
+
+2019-01-30 15:52:10 - [TEST_STEP][PASSED] - setText(findTestObject("IDEATION/IDEAS/OC_TITLE_TEXTFIELD"), "Katalon Test"): Text 'Katalon Test' is set on object 'Object Repository/IDEATION/IDEAS/OC_TITLE_TEXTFIELD'
+
+2019-01-30 15:52:11 - [MESSAGE][PASSED] - Text 'Katalon Test' is set on object 'Object Repository/IDEATION/IDEAS/OC_TITLE_TEXTFIELD'
+
+2019-01-30 15:52:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("IDEATION/IDEAS/OC_TITLE_TEXTFIELD"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/IDEATION/IDEAS/OC_TITLE_TEXTFIELD'
+
+2019-01-30 15:52:11 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/IDEATION/IDEAS/OC_TITLE_TEXTFIELD'
+
+2019-01-30 15:52:11 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/OC_STATUS_FIELD")): Object: 'Object Repository/IDEATION/IDEAS/OC_STATUS_FIELD' is clicked on
+
+2019-01-30 15:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_STATUS_FIELD' is clicked on
+
+2019-01-30 15:52:11 - [TEST_STEP][ERROR] - stratapp.Dropdown.Select(findTestObject("IDEATION/IDEAS/OC_STATUS_DROPDOWN"), "suggested"): stratapp.Dropdown.Select(findTestObject("IDEATION/IDEAS/OC_STATUS_DROPDOWN"), "suggested") FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at stratapp.Dropdown.invokeMethod(Dropdown.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at IDEA_ADD_TEMPLATE.run(IDEA_ADD_TEMPLATE:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548834704266.run(TempTestSuite1548834704266.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at stratapp.Dropdown.Select(Dropdown.groovy:34)
+	at stratapp.Dropdown.invokeMethod(Dropdown.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1548819799637.run(Script1548819799637.groovy:37)
+	... 13 more
+
+
+2019-01-30 15:52:11 - [MESSAGE][ERROR] - groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+
+2019-01-30 15:52:11 - [MESSAGE][ERROR] - stratapp.Dropdown.Select(findTestObject("IDEATION/IDEAS/OC_STATUS_DROPDOWN"), "suggested") FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at stratapp.Dropdown.invokeMethod(Dropdown.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at IDEA_ADD_TEMPLATE.run(IDEA_ADD_TEMPLATE:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548834704266.run(TempTestSuite1548834704266.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at stratapp.Dropdown.Select(Dropdown.groovy:34)
+	at stratapp.Dropdown.invokeMethod(Dropdown.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1548819799637.run(Script1548819799637.groovy:37)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-01-30 15:52:07 - [TEST_CASE][ERROR] - Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE: Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at stratapp.Dropdown.invokeMethod(Dropdown.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at IDEA_ADD_TEMPLATE.run(IDEA_ADD_TEMPLATE:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548834704266.run(TempTestSuite1548834704266.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at stratapp.Dropdown.Select(Dropdown.groovy:34)
+	at stratapp.Dropdown.invokeMethod(Dropdown.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1548819799637.run(Script1548819799637.groovy:37)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-30 15:51:45 - [TEST_SUITE][ERROR] - test: Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at stratapp.Dropdown.invokeMethod(Dropdown.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at IDEA_ADD_TEMPLATE.run(IDEA_ADD_TEMPLATE:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548834704266.run(TempTestSuite1548834704266.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at stratapp.Dropdown.Select(Dropdown.groovy:34)
+	at stratapp.Dropdown.invokeMethod(Dropdown.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1548819799637.run(Script1548819799637.groovy:37)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-01-30 15:51:45 - [TEST_SUITE][ERROR] - test: Test Cases/IDEATION/IDEA/IDEA_ADD_TEMPLATE FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at stratapp.Dropdown.invokeMethod(Dropdown.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at IDEA_ADD_TEMPLATE.run(IDEA_ADD_TEMPLATE:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548834704266.run(TempTestSuite1548834704266.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject) values: [TestObject - 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN']
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at stratapp.Dropdown.Select(Dropdown.groovy:34)
+	at stratapp.Dropdown.invokeMethod(Dropdown.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1548819799637.run(Script1548819799637.groovy:37)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

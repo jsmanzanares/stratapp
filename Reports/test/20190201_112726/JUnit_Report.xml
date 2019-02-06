@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="44" tests="1" failures="0" errors="0">
+   <testsuite name="test" tests="1" failures="0" errors="0" time="44" timestamp="2019-02-01 11:27:32" hostname="JohnSeigfredManzanar - YSPC-STRATAPPQA" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\JohnSeigfredManzanar\\Katalon Studio\\StratApp\\Reports\\test\\20190201_112726"/>
+         <property name="logFiles" value="C:\\Users\\JohnSeigfredManzanar\\Katalon Studio\\StratApp\\Reports\\test\\20190201_112726\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="JohnSeigfredManzanar - YSPC-STRATAPPQA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="12feb17f96307ff32e23446d09baecad"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/REGRESSION_SUITE/IDEATION/IDEA/VALIDATE IF USER CAN ADD NEW IDEA WITH RELATED TOPICS" classname="Test Cases/REGRESSION_SUITE/IDEATION/IDEA/VALIDATE IF USER CAN ADD NEW IDEA WITH RELATED TOPICS" status="PASSED">
+         <system-out><![CDATA[2019-02-01 11:27:32 - [TEST_CASE][PASSED] - Test Cases/REGRESSION_SUITE/IDEATION/IDEA/VALIDATE IF USER CAN ADD NEW IDEA WITH RELATED TOPICS: Test Cases/REGRESSION_SUITE/IDEATION/IDEA/VALIDATE IF USER CAN ADD NEW IDEA WITH RELATED TOPICS
+
+2019-02-01 11:27:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TEMPLATES/LOGIN/LOGIN_TEMPLATE"), ["isAccountLabel":false], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/TEMPLATES/LOGIN/LOGIN_TEMPLATE' successfully
+
+2019-02-01 11:27:33 - [TEST_CASE][PASSED] - Test Cases/TEMPLATES/LOGIN/LOGIN_TEMPLATE: Test Cases/TEMPLATES/LOGIN/LOGIN_TEMPLATE
+
+2019-02-01 11:27:33 - [TEST_STEP][PASSED] - openBrowser("https://app.stratapp.ai/"): Browser is opened with url: 'https://app.stratapp.ai/'
+
+2019-02-01 11:27:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-01 11:27:33 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-01 11:27:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.stratapp.ai/'
+
+2019-02-01 11:27:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-01 11:27:40 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-01 11:27:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("LOGIN/EMAIL_ADD_TEXTFIELD"), 60): Object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD' is present
+
+2019-02-01 11:27:40 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD' is present
+
+2019-02-01 11:27:40 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN/EMAIL_ADD_TEXTFIELD"), "noreply@you-source.com"): Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD'
+
+2019-02-01 11:27:41 - [MESSAGE][PASSED] - Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/EMAIL_ADD_TEXTFIELD'
+
+2019-02-01 11:27:41 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN/NEXT_BUTTON")): Object: 'Object Repository/LOGIN/NEXT_BUTTON' is clicked on
+
+2019-02-01 11:27:41 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN/NEXT_BUTTON' is clicked on
+
+2019-02-01 11:27:41 - [TEST_STEP][PASSED] - isGoogle = verifyElementPresent(findTestObject("LOGIN/GOOGLE_LABEL"), 60): Object 'Object Repository/LOGIN/GOOGLE_LABEL' is present
+
+2019-02-01 11:27:41 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN/GOOGLE_LABEL' is present
+
+2019-02-01 11:27:41 - [TEST_STEP][PASSED] - if (isGoogle): Object: 'Object Repository/LOGIN/GOOGLE_SIGNIN_BUTTON' is clicked on
+
+2019-02-01 11:27:41 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN/GOOGLE_EMAIL_TEXTFIELD"), "noreply@you-source.com"): Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/GOOGLE_EMAIL_TEXTFIELD'
+
+2019-02-01 11:27:42 - [MESSAGE][PASSED] - Text 'noreply@you-source.com' is set on object 'Object Repository/LOGIN/GOOGLE_EMAIL_TEXTFIELD'
+
+2019-02-01 11:27:42 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN/GOOGLE_NEXT_BUTTON")): Object: 'Object Repository/LOGIN/GOOGLE_NEXT_BUTTON' is clicked on
+
+2019-02-01 11:27:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN/GOOGLE_NEXT_BUTTON' is clicked on
+
+2019-02-01 11:27:42 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN/GOOGLE_PASSWORD_TEXTFIELD"), "yousource321"): Text 'yousource321' is set on object 'Object Repository/LOGIN/GOOGLE_PASSWORD_TEXTFIELD'
+
+2019-02-01 11:27:42 - [MESSAGE][PASSED] - Text 'yousource321' is set on object 'Object Repository/LOGIN/GOOGLE_PASSWORD_TEXTFIELD'
+
+2019-02-01 11:27:42 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN/GOOGLE_SIGNIN_BUTTON")): Object: 'Object Repository/LOGIN/GOOGLE_SIGNIN_BUTTON' is clicked on
+
+2019-02-01 11:27:47 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN/GOOGLE_SIGNIN_BUTTON' is clicked on
+
+2019-02-01 11:27:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("HOME/HEADLINES_TAB"), 60): Object 'Object Repository/HOME/HEADLINES_TAB' is present
+
+2019-02-01 11:27:47 - [MESSAGE][PASSED] - Object 'Object Repository/HOME/HEADLINES_TAB' is present
+
+2019-02-01 11:27:47 - [TEST_STEP][PASSED] - stratapp.Login.GetUserName(): stratapp.Login.GetUserName is PASSED
+
+2019-02-01 11:27:47 - [MESSAGE][INFO] - User JSON {"firstName":"No","lastName":"Reply","fullName":"No Reply","tenantId":"f385ee6b-2a69-4463-9fc8-01259f2c5c03","userId":"37c0108d-8dbd-46cd-aeeb-ca484d1d8c22","role":["PeopleAdmin","StrategyAdmin","IdeationAdmin","HeadlinesAdmin","HRAdmin","BillingAdmin","Admin","SuperAdmin"]}
+
+2019-02-01 11:27:47 - [MESSAGE][INFO] - Full Name: No Reply
+
+2019-02-01 11:27:47 - [MESSAGE][PASSED] - stratapp.Login.GetUserName is PASSED
+
+2019-02-01 11:27:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TEMPLATES/LOGIN/LOGIN_TEMPLATE' successfully
+
+2019-02-01 11:27:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TEMPLATES/IDEATION/IDEA/IDEA_ADD_TEMPLATE"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_TEMPLATE' successfully
+
+2019-02-01 11:27:48 - [TEST_CASE][PASSED] - Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_TEMPLATE: Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_TEMPLATE
+
+2019-02-01 11:27:48 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("MENU/IDEATION_TAB"), 60): Object 'Object Repository/MENU/IDEATION_TAB' is clickable
+
+2019-02-01 11:27:48 - [MESSAGE][PASSED] - Object 'Object Repository/MENU/IDEATION_TAB' is clickable
+
+2019-02-01 11:27:48 - [TEST_STEP][PASSED] - mouseOver(findTestObject("MENU/IDEATION_TAB"), STOP_ON_FAILURE): Object: 'Object Repository/MENU/IDEATION_TAB' is hovered
+
+2019-02-01 11:27:48 - [MESSAGE][PASSED] - Object: 'Object Repository/MENU/IDEATION_TAB' is hovered
+
+2019-02-01 11:27:48 - [TEST_STEP][PASSED] - click(findTestObject("MENU/IDEATION_TAB")): Object: 'Object Repository/MENU/IDEATION_TAB' is clicked on
+
+2019-02-01 11:27:48 - [MESSAGE][PASSED] - Object: 'Object Repository/MENU/IDEATION_TAB' is clicked on
+
+2019-02-01 11:27:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IDEATION/TABS/IDEAS_TAB"), 60): Object 'Object Repository/IDEATION/TABS/IDEAS_TAB' is present
+
+2019-02-01 11:27:48 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/TABS/IDEAS_TAB' is present
+
+2019-02-01 11:27:48 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/TABS/IDEAS_TAB"), STOP_ON_FAILURE): Object: 'Object Repository/IDEATION/TABS/IDEAS_TAB' is hovered
+
+2019-02-01 11:27:48 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/TABS/IDEAS_TAB' is hovered
+
+2019-02-01 11:27:48 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/TABS/IDEAS_TAB")): Object: 'Object Repository/IDEATION/TABS/IDEAS_TAB' is clicked on
+
+2019-02-01 11:27:49 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/TABS/IDEAS_TAB' is clicked on
+
+2019-02-01 11:27:49 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON"), 60): Object 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is clickable
+
+2019-02-01 11:27:49 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is clickable
+
+2019-02-01 11:27:49 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON")): Object: 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is hovered
+
+2019-02-01 11:27:49 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is hovered
+
+2019-02-01 11:27:49 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON")): Object: 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is clicked on
+
+2019-02-01 11:27:49 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is clicked on
+
+2019-02-01 11:27:49 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/LV_ADD_IDEA_BUTTON")): Object: 'Object Repository/IDEATION/IDEAS/LV_ADD_IDEA_BUTTON' is clicked on
+
+2019-02-01 11:27:50 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/LV_ADD_IDEA_BUTTON' is clicked on
+
+2019-02-01 11:27:50 - [TEST_STEP][PASSED] - setText(findTestObject("IDEATION/IDEAS/OC_TITLE_TEXTFIELD"), "Katalon Test"): Text 'Katalon Test' is set on object 'Object Repository/IDEATION/IDEAS/OC_TITLE_TEXTFIELD'
+
+2019-02-01 11:27:50 - [MESSAGE][PASSED] - Text 'Katalon Test' is set on object 'Object Repository/IDEATION/IDEAS/OC_TITLE_TEXTFIELD'
+
+2019-02-01 11:27:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("IDEATION/IDEAS/OC_TITLE_TEXTFIELD"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/IDEATION/IDEAS/OC_TITLE_TEXTFIELD'
+
+2019-02-01 11:27:50 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/IDEATION/IDEAS/OC_TITLE_TEXTFIELD'
+
+2019-02-01 11:27:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("IDEATION/IDEAS/OC_STATUS_FIELD"), 0): Object 'Object Repository/IDEATION/IDEAS/OC_STATUS_FIELD' is visible
+
+2019-02-01 11:27:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-01 11:27:50 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/IDEAS/OC_STATUS_FIELD' is visible
+
+2019-02-01 11:27:50 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/IDEAS/OC_STATUS_FIELD")): Object: 'Object Repository/IDEATION/IDEAS/OC_STATUS_FIELD' is hovered
+
+2019-02-01 11:27:51 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_STATUS_FIELD' is hovered
+
+2019-02-01 11:27:51 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/OC_STATUS_FIELD")): Object: 'Object Repository/IDEATION/IDEAS/OC_STATUS_FIELD' is clicked on
+
+2019-02-01 11:27:51 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_STATUS_FIELD' is clicked on
+
+2019-02-01 11:27:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("IDEATION/IDEAS/OC_STATUS_DROPDOWN"), 60): Object 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN' is visible
+
+2019-02-01 11:27:51 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN' is visible
+
+2019-02-01 11:27:51 - [TEST_STEP][PASSED] - stratapp.Dropdown.Select(findTestObject("IDEATION/IDEAS/OC_STATUS_DROPDOWN"), "deferred"): stratapp.Dropdown.Select is PASSED
+
+2019-02-01 11:27:51 - [MESSAGE][INFO] - deferred is not part of dropdown list
+
+2019-02-01 11:27:51 - [MESSAGE][PASSED] - stratapp.Dropdown.Select is PASSED
+
+2019-02-01 11:27:51 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/IDEAS/OC_IMPORTANCE_FIELD")): Object: 'Object Repository/IDEATION/IDEAS/OC_IMPORTANCE_FIELD' is hovered
+
+2019-02-01 11:27:51 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_IMPORTANCE_FIELD' is hovered
+
+2019-02-01 11:27:51 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/OC_IMPORTANCE_FIELD")): Object: 'Object Repository/IDEATION/IDEAS/OC_IMPORTANCE_FIELD' is clicked on
+
+2019-02-01 11:27:51 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_IMPORTANCE_FIELD' is clicked on
+
+2019-02-01 11:27:51 - [TEST_STEP][PASSED] - stratapp.Dropdown.Select(findTestObject("IDEATION/IDEAS/OC_IMPORTANCE_DROPDOWN"), "framing"): stratapp.Dropdown.Select is PASSED
+
+2019-02-01 11:27:52 - [MESSAGE][INFO] - framing is not part of dropdown list
+
+2019-02-01 11:27:52 - [MESSAGE][PASSED] - stratapp.Dropdown.Select is PASSED
+
+2019-02-01 11:27:52 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/IDEAS/OC_SECURITY_FIELD")): Object: 'Object Repository/IDEATION/IDEAS/OC_SECURITY_FIELD' is hovered
+
+2019-02-01 11:27:52 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_SECURITY_FIELD' is hovered
+
+2019-02-01 11:27:52 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/OC_SECURITY_FIELD")): Object: 'Object Repository/IDEATION/IDEAS/OC_SECURITY_FIELD' is clicked on
+
+2019-02-01 11:27:52 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_SECURITY_FIELD' is clicked on
+
+2019-02-01 11:27:52 - [TEST_STEP][PASSED] - stratapp.Dropdown.Select(findTestObject("IDEATION/IDEAS/OC_SECURITY_DROPDOWN"), "confidential"): stratapp.Dropdown.Select is PASSED
+
+2019-02-01 11:27:52 - [MESSAGE][INFO] - confidential is not part of dropdown list
+
+2019-02-01 11:27:52 - [MESSAGE][PASSED] - stratapp.Dropdown.Select is PASSED
+
+2019-02-01 11:27:52 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/IDEAS/OC_SOURCE_FIELD")): Object: 'Object Repository/IDEATION/IDEAS/OC_SOURCE_FIELD' is hovered
+
+2019-02-01 11:27:52 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_SOURCE_FIELD' is hovered
+
+2019-02-01 11:27:52 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/OC_SOURCE_FIELD")): Object: 'Object Repository/IDEATION/IDEAS/OC_SOURCE_FIELD' is clicked on
+
+2019-02-01 11:27:52 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_SOURCE_FIELD' is clicked on
+
+2019-02-01 11:27:52 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/IDEAS/OC_SOURCE_TYPE_BUTTON")): Object: 'Object Repository/IDEATION/IDEAS/OC_SOURCE_TYPE_BUTTON' is hovered
+
+2019-02-01 11:27:52 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_SOURCE_TYPE_BUTTON' is hovered
+
+2019-02-01 11:27:52 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/OC_SOURCE_TYPE_BUTTON")): Object: 'Object Repository/IDEATION/IDEAS/OC_SOURCE_TYPE_BUTTON' is clicked on
+
+2019-02-01 11:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_SOURCE_TYPE_BUTTON' is clicked on
+
+2019-02-01 11:27:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("IDEATION/IDEAS/OC_STATUS_DROPDOWN"), 60): Object 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN' is visible
+
+2019-02-01 11:27:53 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/IDEAS/OC_STATUS_DROPDOWN' is visible
+
+2019-02-01 11:27:53 - [TEST_STEP][PASSED] - stratapp.Dropdown.AddSource(findTestObject("IDEATION/IDEAS/OC_SOURCE_DROPDOWN"), "+SG~Functional Regression Tests"): stratapp.Dropdown.AddSource is PASSED
+
+2019-02-01 11:27:53 - [MESSAGE][INFO] -  selected
+
+2019-02-01 11:27:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-01 11:27:59 - [MESSAGE][PASSED] - stratapp.Dropdown.AddSource is PASSED
+
+2019-02-01 11:27:59 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_ADD_EDIT_CONTENT_BUTTON")): Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_ADD_EDIT_CONTENT_BUTTON' is hovered
+
+2019-02-01 11:27:59 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_ADD_EDIT_CONTENT_BUTTON' is hovered
+
+2019-02-01 11:27:59 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_ADD_EDIT_CONTENT_BUTTON")): Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_ADD_EDIT_CONTENT_BUTTON' is clicked on
+
+2019-02-01 11:27:59 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_ADD_EDIT_CONTENT_BUTTON' is clicked on
+
+2019-02-01 11:27:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_TEXTAREA"), 60): Object 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_TEXTAREA' is visible
+
+2019-02-01 11:27:59 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_TEXTAREA' is visible
+
+2019-02-01 11:27:59 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_TEXTAREA")): Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_TEXTAREA' is hovered
+
+2019-02-01 11:27:59 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_TEXTAREA' is hovered
+
+2019-02-01 11:27:59 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_TEXTAREA")): Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_TEXTAREA' is clicked on
+
+2019-02-01 11:27:59 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_TEXTAREA' is clicked on
+
+2019-02-01 11:27:59 - [TEST_STEP][PASSED] - stratapp.NonInput.SendKeys(findTestObject("IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_TEXTAREA"), "AUTO SUMMARY"): stratapp.NonInput.SendKeys is PASSED
+
+2019-02-01 11:28:00 - [MESSAGE][PASSED] - stratapp.NonInput.SendKeys is PASSED
+
+2019-02-01 11:28:00 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SAVE_BUTTON"), CONTINUE_ON_FAILURE): Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SAVE_BUTTON' is hovered
+
+2019-02-01 11:28:00 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SAVE_BUTTON' is hovered
+
+2019-02-01 11:28:00 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SAVE_BUTTON")): Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SAVE_BUTTON' is clicked on
+
+2019-02-01 11:28:00 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SAVE_BUTTON' is clicked on
+
+2019-02-01 11:28:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_PARAGRAPH"), 60): Object 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_PARAGRAPH' is visible
+
+2019-02-01 11:28:00 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_PARAGRAPH' is visible
+
+2019-02-01 11:28:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("IDEATION/IDEAS/OC_STATUS_FIELD"), "deferred".toUpperCase(), CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/OC_STATUS_FIELD' are matched.
+
+2019-02-01 11:28:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/OC_STATUS_FIELD' are matched.
+
+2019-02-01 11:28:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("IDEATION/IDEAS/OC_IMPORTANCE_FIELD"), "framing", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/OC_IMPORTANCE_FIELD' are matched.
+
+2019-02-01 11:28:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/OC_IMPORTANCE_FIELD' are matched.
+
+2019-02-01 11:28:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("IDEATION/IDEAS/OC_SECURITY_FIELD"), "confidential", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/OC_SECURITY_FIELD' are matched.
+
+2019-02-01 11:28:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/OC_SECURITY_FIELD' are matched.
+
+2019-02-01 11:28:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("IDEATION/IDEAS/OC_USERNAME_LINK"), UserName, CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/OC_USERNAME_LINK' are matched.
+
+2019-02-01 11:28:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/OC_USERNAME_LINK' are matched.
+
+2019-02-01 11:28:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_PARAGRAPH"), "AUTO SUMMARY", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_PARAGRAPH' are matched.
+
+2019-02-01 11:28:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IDEATION/LV2 NAV/THE_IDEA_CHALLENGE/OC_SUMMARY_PARAGRAPH' are matched.
+
+2019-02-01 11:28:00 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/IDEAS/OC_CLOSE_BUTTON")): Object: 'Object Repository/IDEATION/IDEAS/OC_CLOSE_BUTTON' is hovered
+
+2019-02-01 11:28:00 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_CLOSE_BUTTON' is hovered
+
+2019-02-01 11:28:00 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/OC_CLOSE_BUTTON")): Object: 'Object Repository/IDEATION/IDEAS/OC_CLOSE_BUTTON' is clicked on
+
+2019-02-01 11:28:00 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/OC_CLOSE_BUTTON' is clicked on
+
+2019-02-01 11:28:00 - [TEST_STEP][PASSED] - setText(findTestObject("IDEATION/IDEAS/LV_SEARCH_TEXTFIELD"), "Katalon Test"): Text 'Katalon Test' is set on object 'Object Repository/IDEATION/IDEAS/LV_SEARCH_TEXTFIELD'
+
+2019-02-01 11:28:00 - [MESSAGE][PASSED] - Text 'Katalon Test' is set on object 'Object Repository/IDEATION/IDEAS/LV_SEARCH_TEXTFIELD'
+
+2019-02-01 11:28:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IDEATION/IDEAS/LV_IDEA_TITLE"), 60): Object 'Object Repository/IDEATION/IDEAS/LV_IDEA_TITLE' is present
+
+2019-02-01 11:28:00 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/IDEAS/LV_IDEA_TITLE' is present
+
+2019-02-01 11:28:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("IDEATION/IDEAS/LV_IDEA_TITLE"), "Katalon Test"): Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/LV_IDEA_TITLE' are matched.
+
+2019-02-01 11:28:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/LV_IDEA_TITLE' are matched.
+
+2019-02-01 11:28:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("IDEATION/IDEAS/LV_STATUS_FIELD"), "deferred".toUpperCase()): Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/LV_STATUS_FIELD' are matched.
+
+2019-02-01 11:28:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/LV_STATUS_FIELD' are matched.
+
+2019-02-01 11:28:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("IDEATION/IDEAS/LV_IMPORTANCE_FIELD"), "framing"): Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/LV_IMPORTANCE_FIELD' are matched.
+
+2019-02-01 11:28:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/IDEATION/IDEAS/LV_IMPORTANCE_FIELD' are matched.
+
+2019-02-01 11:28:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_TEMPLATE' successfully
+
+2019-02-01 11:28:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TEMPLATES/IDEATION/IDEA/IDEA_ADD_RELATED_TOPICS_TEMPLATE"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_RELATED_TOPICS_TEMPLATE' successfully
+
+2019-02-01 11:28:01 - [TEST_CASE][PASSED] - Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_RELATED_TOPICS_TEMPLATE: Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_RELATED_TOPICS_TEMPLATE
+
+2019-02-01 11:28:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("MENU/IDEATION_TAB"), 60): Object 'Object Repository/MENU/IDEATION_TAB' is present
+
+2019-02-01 11:28:01 - [MESSAGE][PASSED] - Object 'Object Repository/MENU/IDEATION_TAB' is present
+
+2019-02-01 11:28:01 - [TEST_STEP][PASSED] - mouseOver(findTestObject("MENU/IDEATION_TAB"), STOP_ON_FAILURE): Object: 'Object Repository/MENU/IDEATION_TAB' is hovered
+
+2019-02-01 11:28:01 - [MESSAGE][PASSED] - Object: 'Object Repository/MENU/IDEATION_TAB' is hovered
+
+2019-02-01 11:28:01 - [TEST_STEP][PASSED] - click(findTestObject("MENU/IDEATION_TAB")): Object: 'Object Repository/MENU/IDEATION_TAB' is clicked on
+
+2019-02-01 11:28:01 - [MESSAGE][PASSED] - Object: 'Object Repository/MENU/IDEATION_TAB' is clicked on
+
+2019-02-01 11:28:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IDEATION/TABS/IDEAS_TAB"), 60): Object 'Object Repository/IDEATION/TABS/IDEAS_TAB' is present
+
+2019-02-01 11:28:01 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/TABS/IDEAS_TAB' is present
+
+2019-02-01 11:28:01 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/TABS/IDEAS_TAB"), STOP_ON_FAILURE): Object: 'Object Repository/IDEATION/TABS/IDEAS_TAB' is hovered
+
+2019-02-01 11:28:01 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/TABS/IDEAS_TAB' is hovered
+
+2019-02-01 11:28:01 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/TABS/IDEAS_TAB")): Object: 'Object Repository/IDEATION/TABS/IDEAS_TAB' is clicked on
+
+2019-02-01 11:28:01 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/TABS/IDEAS_TAB' is clicked on
+
+2019-02-01 11:28:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON"), 60): Object 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is present
+
+2019-02-01 11:28:01 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/IDEAS/LV_PLUS_SIGN_BUTTON' is present
+
+2019-02-01 11:28:01 - [TEST_STEP][PASSED] - setText(findTestObject("IDEATION/IDEAS/LV_SEARCH_TEXTFIELD"), "Katalon Test"): Text 'Katalon Test' is set on object 'Object Repository/IDEATION/IDEAS/LV_SEARCH_TEXTFIELD'
+
+2019-02-01 11:28:02 - [MESSAGE][PASSED] - Text 'Katalon Test' is set on object 'Object Repository/IDEATION/IDEAS/LV_SEARCH_TEXTFIELD'
+
+2019-02-01 11:28:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("IDEATION/IDEAS/LV_IDEA_TITLE"), 60): Object 'Object Repository/IDEATION/IDEAS/LV_IDEA_TITLE' is present
+
+2019-02-01 11:28:02 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/IDEAS/LV_IDEA_TITLE' is present
+
+2019-02-01 11:28:02 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/IDEAS/LV_IDEA_TITLE")): Object: 'Object Repository/IDEATION/IDEAS/LV_IDEA_TITLE' is hovered
+
+2019-02-01 11:28:02 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/LV_IDEA_TITLE' is hovered
+
+2019-02-01 11:28:02 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/IDEAS/LV_IDEA_TITLE")): Object: 'Object Repository/IDEATION/IDEAS/LV_IDEA_TITLE' is clicked on
+
+2019-02-01 11:28:02 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/IDEAS/LV_IDEA_TITLE' is clicked on
+
+2019-02-01 11:28:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("IDEATION/IDEAS/IDEA_CARD"), 60): Object 'Object Repository/IDEATION/IDEAS/IDEA_CARD' is visible
+
+2019-02-01 11:28:02 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/IDEAS/IDEA_CARD' is visible
+
+2019-02-01 11:28:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TEMPLATES/IDEATION/RELATED/ADD_RELATED_RISK_TEMPLATE"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/TEMPLATES/IDEATION/RELATED/ADD_RELATED_RISK_TEMPLATE' successfully
+
+2019-02-01 11:28:02 - [TEST_CASE][PASSED] - Test Cases/TEMPLATES/IDEATION/RELATED/ADD_RELATED_RISK_TEMPLATE: Test Cases/TEMPLATES/IDEATION/RELATED/ADD_RELATED_RISK_TEMPLATE
+
+2019-02-01 11:28:02 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/LV2 NAV/RELATED/RELATED_TAB")): Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RELATED_TAB' is hovered
+
+2019-02-01 11:28:02 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RELATED_TAB' is hovered
+
+2019-02-01 11:28:02 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/LV2 NAV/RELATED/RELATED_TAB")): Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RELATED_TAB' is clicked on
+
+2019-02-01 11:28:03 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RELATED_TAB' is clicked on
+
+2019-02-01 11:28:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("IDEATION/LV2 NAV/RELATED/RISKS/RELATED_RISKS_TAB"), 60): Object 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/RELATED_RISKS_TAB' is visible
+
+2019-02-01 11:28:03 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/RELATED_RISKS_TAB' is visible
+
+2019-02-01 11:28:03 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/LV2 NAV/RELATED/RISKS/RELATED_RISKS_TAB")): Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/RELATED_RISKS_TAB' is hovered
+
+2019-02-01 11:28:03 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/RELATED_RISKS_TAB' is hovered
+
+2019-02-01 11:28:03 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/LV2 NAV/RELATED/RISKS/RELATED_RISKS_TAB")): Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/RELATED_RISKS_TAB' is clicked on
+
+2019-02-01 11:28:03 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/RELATED_RISKS_TAB' is clicked on
+
+2019-02-01 11:28:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("IDEATION/LV2 NAV/RELATED/RISKS/OC_ADD_RISK_BUTTON"), 60): Object 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/OC_ADD_RISK_BUTTON' is visible
+
+2019-02-01 11:28:03 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/OC_ADD_RISK_BUTTON' is visible
+
+2019-02-01 11:28:03 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IDEATION/LV2 NAV/RELATED/RISKS/OC_ADD_RISK_BUTTON")): Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/OC_ADD_RISK_BUTTON' is hovered
+
+2019-02-01 11:28:03 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/OC_ADD_RISK_BUTTON' is hovered
+
+2019-02-01 11:28:03 - [TEST_STEP][PASSED] - click(findTestObject("IDEATION/LV2 NAV/RELATED/RISKS/OC_ADD_RISK_BUTTON")): Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/OC_ADD_RISK_BUTTON' is clicked on
+
+2019-02-01 11:28:03 - [MESSAGE][PASSED] - Object: 'Object Repository/IDEATION/LV2 NAV/RELATED/RISKS/OC_ADD_RISK_BUTTON' is clicked on
+
+2019-02-01 11:28:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("STRATEGY/RISKS/OC_RISK_TITLE_FIELD"), 60): Object 'Object Repository/STRATEGY/RISKS/OC_RISK_TITLE_FIELD' is visible
+
+2019-02-01 11:28:03 - [MESSAGE][PASSED] - Object 'Object Repository/STRATEGY/RISKS/OC_RISK_TITLE_FIELD' is visible
+
+2019-02-01 11:28:03 - [TEST_STEP][PASSED] - setText(findTestObject("STRATEGY/RISKS/OC_RISK_TITLE_FIELD"), "RELATED RISK"): Text 'RELATED RISK' is set on object 'Object Repository/STRATEGY/RISKS/OC_RISK_TITLE_FIELD'
+
+2019-02-01 11:28:04 - [MESSAGE][PASSED] - Text 'RELATED RISK' is set on object 'Object Repository/STRATEGY/RISKS/OC_RISK_TITLE_FIELD'
+
+2019-02-01 11:28:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("STRATEGY/RISKS/OC_RISK_TITLE_FIELD"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/STRATEGY/RISKS/OC_RISK_TITLE_FIELD'
+
+2019-02-01 11:28:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/STRATEGY/RISKS/OC_RISK_TITLE_FIELD'
+
+2019-02-01 11:28:04 - [TEST_STEP][PASSED] - mouseOver(findTestObject("STRATEGY/RISKS/OC_RISK_STATUS_FIELD")): Object: 'Object Repository/STRATEGY/RISKS/OC_RISK_STATUS_FIELD' is hovered
+
+2019-02-01 11:28:04 - [MESSAGE][PASSED] - Object: 'Object Repository/STRATEGY/RISKS/OC_RISK_STATUS_FIELD' is hovered
+
+2019-02-01 11:28:04 - [TEST_STEP][PASSED] - click(findTestObject("STRATEGY/RISKS/OC_RISK_STATUS_FIELD")): Object: 'Object Repository/STRATEGY/RISKS/OC_RISK_STATUS_FIELD' is clicked on
+
+2019-02-01 11:28:04 - [MESSAGE][PASSED] - Object: 'Object Repository/STRATEGY/RISKS/OC_RISK_STATUS_FIELD' is clicked on
+
+2019-02-01 11:28:04 - [TEST_STEP][PASSED] - stratapp.Dropdown.Select(findTestObject("STRATEGY/RISKS/OC_RISK_STATUS_DROPDOWN"), "under control"): stratapp.Dropdown.Select is PASSED
+
+2019-02-01 11:28:04 - [MESSAGE][INFO] - under control is not part of dropdown list
+
+2019-02-01 11:28:04 - [MESSAGE][PASSED] - stratapp.Dropdown.Select is PASSED
+
+2019-02-01 11:28:04 - [TEST_STEP][PASSED] - mouseOver(findTestObject("STRATEGY/RISKS/OC_RISK_SECURITY_FIELD")): Object: 'Object Repository/STRATEGY/RISKS/OC_RISK_SECURITY_FIELD' is hovered
+
+2019-02-01 11:28:04 - [MESSAGE][PASSED] - Object: 'Object Repository/STRATEGY/RISKS/OC_RISK_SECURITY_FIELD' is hovered
+
+2019-02-01 11:28:04 - [TEST_STEP][PASSED] - click(findTestObject("STRATEGY/RISKS/OC_RISK_SECURITY_FIELD")): Object: 'Object Repository/STRATEGY/RISKS/OC_RISK_SECURITY_FIELD' is clicked on
+
+2019-02-01 11:28:04 - [MESSAGE][PASSED] - Object: 'Object Repository/STRATEGY/RISKS/OC_RISK_SECURITY_FIELD' is clicked on
+
+2019-02-01 11:28:04 - [TEST_STEP][PASSED] - stratapp.Dropdown.Select(findTestObject("STRATEGY/RISKS/OC_RISK_SECURITY_DROPDOWN"), "confidential"): stratapp.Dropdown.Select is PASSED
+
+2019-02-01 11:28:05 - [MESSAGE][INFO] - confidential is not part of dropdown list
+
+2019-02-01 11:28:05 - [MESSAGE][PASSED] - stratapp.Dropdown.Select is PASSED
+
+2019-02-01 11:28:05 - [TEST_STEP][PASSED] - mouseOver(findTestObject("STRATEGY/RISKS/OC_RISK_PROBABILITY_FIELD")): Object: 'Object Repository/STRATEGY/RISKS/OC_RISK_PROBABILITY_FIELD' is hovered
+
+2019-02-01 11:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/STRATEGY/RISKS/OC_RISK_PROBABILITY_FIELD' is hovered
+
+2019-02-01 11:28:05 - [TEST_STEP][PASSED] - click(findTestObject("STRATEGY/RISKS/OC_RISK_PROBABILITY_FIELD")): Object: 'Object Repository/STRATEGY/RISKS/OC_RISK_PROBABILITY_FIELD' is clicked on
+
+2019-02-01 11:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/STRATEGY/RISKS/OC_RISK_PROBABILITY_FIELD' is clicked on
+
+2019-02-01 11:28:05 - [TEST_STEP][PASSED] - stratapp.Dropdown.Select(findTestObject("STRATEGY/RISKS/OC_RISK_PROBABILITY_DROPDOWN"), "high"): stratapp.Dropdown.Select is PASSED
+
+2019-02-01 11:28:05 - [MESSAGE][INFO] - high is not part of dropdown list
+
+2019-02-01 11:28:05 - [MESSAGE][PASSED] - stratapp.Dropdown.Select is PASSED
+
+2019-02-01 11:28:05 - [TEST_STEP][PASSED] - mouseOver(findTestObject("STRATEGY/RISKS/OC_RISK_IMPACT_FIELD")): Object: 'Object Repository/STRATEGY/RISKS/OC_RISK_IMPACT_FIELD' is hovered
+
+2019-02-01 11:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/STRATEGY/RISKS/OC_RISK_IMPACT_FIELD' is hovered
+
+2019-02-01 11:28:05 - [TEST_STEP][PASSED] - click(findTestObject("STRATEGY/RISKS/OC_RISK_IMPACT_FIELD")): Object: 'Object Repository/STRATEGY/RISKS/OC_RISK_IMPACT_FIELD' is clicked on
+
+2019-02-01 11:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/STRATEGY/RISKS/OC_RISK_IMPACT_FIELD' is clicked on
+
+2019-02-01 11:28:05 - [TEST_STEP][PASSED] - stratapp.Dropdown.Select(findTestObject("STRATEGY/RISKS/OC_RISK_IMPACT_DROPDOWN"), "high"): stratapp.Dropdown.Select is PASSED
+
+2019-02-01 11:28:05 - [MESSAGE][INFO] - high is not part of dropdown list
+
+2019-02-01 11:28:05 - [MESSAGE][PASSED] - stratapp.Dropdown.Select is PASSED
+
+2019-02-01 11:28:05 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-01 11:28:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-01 11:28:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TEMPLATES/IDEATION/RELATED/ADD_RELATED_RISK_TEMPLATE' successfully
+
+2019-02-01 11:28:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TEMPLATES/IDEATION/IDEA/IDEA_ADD_RELATED_TOPICS_TEMPLATE' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-01 11:27:32 - [TEST_SUITE][PASSED] - test: Test Cases/REGRESSION_SUITE/IDEATION/IDEA/VALIDATE IF USER CAN ADD NEW IDEA WITH RELATED TOPICS]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

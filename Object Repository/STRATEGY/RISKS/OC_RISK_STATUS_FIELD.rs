@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>OC_RISK_STATUS_FIELD</name>
+   <tag></tag>
+   <elementGuidId>30ee6527-d0b6-4e1f-b9ff-7cac9d2610ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//app-risk-card-content//div[contains(@class,'card-status')]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//app-risk-card-content//div[contains(@class,'card-status')]/span</value>
+   </webElementProperties>
+</WebElementEntity>
